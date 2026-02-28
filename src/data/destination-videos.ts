@@ -4,16 +4,5 @@
  * Used by: src/pages/index.astro, src/pages/destinations/index.astro
  */
 export const destinationVideoMap: Record<string, string> = {
-  bogota: '',
-  medellin: '',
-  cartagena: '',
-  'santa-marta': '',
-  'san-andres': '',
-  cali: '',
-  'villa-de-leyva': '',
-  salento: '',
-  barichara: '',
-  leticia: '',
-  'tatacoa-desert': '',
-  providencia: '',
+  // No destination videos yet — add as video content is created
 } as const;
