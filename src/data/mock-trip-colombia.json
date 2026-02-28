@@ -1,0 +1,67 @@
+{
+  "name": "Bogotá & Coffee Region",
+  "subtitle": "Bogotá → Salento → Cocora Valley",
+  "dates": "Mar 20 – Mar 22, 2026",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-03-20",
+      "title": "Day 1 — Bogotá",
+      "location": "Bogotá",
+      "items": [
+        { "id": "d1a1", "time": "10:00 AM", "icon": "✈️", "type": "transport", "title": "Arrive El Dorado Airport", "detail": "Terminal 1 international arrivals. Uber or taxi to La Candelaria ~COP 25,000 ($6), 40 min depending on traffic.", "status": "confirmed", "lat": 4.7016, "lng": -74.1469 },
+        { "id": "d1a2", "time": "11:30 AM", "icon": "🏨", "type": "accommodation", "title": "Check into hotel in La Candelaria", "detail": "Historic quarter with colonial architecture, street art, and cafés. Walking distance to major sights.", "status": "confirmed", "lat": 4.5964, "lng": -74.0733 },
+        { "id": "d1a3", "time": "12:30 PM", "icon": "🍽️", "type": "food", "title": "Lunch at Andrés Carne de Res D.C.", "detail": "Iconic Colombian restaurant — grilled meats, arepas, and live atmosphere. Bogotá branch in Zona T. Budget ~COP 50,000 ($12).", "status": "confirmed", "lat": 4.6667, "lng": -74.0539 },
+        { "id": "d1a4", "time": "2:30 PM", "icon": "🏛️", "type": "activity", "title": "Museo del Oro (Gold Museum)", "detail": "55,000 gold pieces from pre-Columbian civilizations. One of South America's most important museums. Entry ~COP 5,000 ($1.20). Free on Sundays.", "status": "confirmed", "lat": 4.6018, "lng": -74.0719 },
+        { "id": "d1a5", "time": "4:30 PM", "icon": "🎨", "type": "activity", "title": "Museo Botero & La Candelaria walk", "detail": "Free museum with Botero's signature voluminous art plus Picasso, Monet, and Dalí. Then wander the cobblestone streets and graffiti of La Candelaria.", "status": "confirmed", "lat": 4.5966, "lng": -74.0727 },
+        { "id": "d1a6", "time": "6:00 PM", "icon": "⛰️", "type": "activity", "title": "Monserrate sunset", "detail": "Cable car or funicular to 3,152m summit. Panoramic views of the entire city at golden hour. Entry ~COP 23,000 ($6) round trip. Bring a jacket — it's cold at the top.", "status": "confirmed", "lat": 4.6057, "lng": -74.0564 },
+        { "id": "d1a7", "time": "8:00 PM", "icon": "🍽️", "type": "food", "title": "Dinner in Zona G", "detail": "Bogotá's gourmet district. Try Colombian-fusion at Leo Cocina y Cava or Criterion. Budget COP 80,000–120,000 ($20–30) for a special meal.", "status": "confirmed", "lat": 4.6519, "lng": -74.0564 }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-03-21",
+      "title": "Day 2 — Bogotá → Salento",
+      "location": "Bogotá → Salento",
+      "items": [
+        { "id": "d2a1", "time": "6:00 AM", "icon": "✈️", "type": "transport", "title": "Flight to Armenia (AXM)", "detail": "Avianca or LATAM, ~55 min. Arrive at El Edén Airport. Then shared van or bus to Salento (~1 hr, COP 10,000).", "status": "confirmed", "lat": 4.4528, "lng": -75.7664 },
+        { "id": "d2a2", "time": "9:00 AM", "icon": "☕", "type": "food", "title": "Coffee & breakfast on the plaza", "detail": "Fresh Colombian coffee and calentado (reheated beans, rice, egg, and arepa) at one of the colorful cafés on Plaza de Bolívar.", "status": "confirmed", "lat": 4.6372, "lng": -75.5711 },
+        { "id": "d2a3", "time": "10:00 AM", "icon": "☕", "type": "activity", "title": "Coffee finca tour", "detail": "Visit a working coffee farm to see the full bean-to-cup process. Finca El Ocaso or Don Elías are popular choices. ~COP 25,000 ($6) with tasting.", "status": "confirmed", "lat": 4.6333, "lng": -75.5633 },
+        { "id": "d2a4", "time": "1:00 PM", "icon": "🍽️", "type": "food", "title": "Lunch — Fresh trout on Calle Real", "detail": "Salento is famous for trucha (trout). Try it grilled with patacones at one of the restaurants along colorful Calle Real. ~COP 20,000 ($5).", "status": "confirmed", "lat": 4.6375, "lng": -75.5700 },
+        { "id": "d2a5", "time": "2:30 PM", "icon": "🛍️", "type": "activity", "title": "Calle Real & artisan shops", "detail": "Browse handmade jewelry, woven mochilas (bags), and local coffee. The colorful balconied buildings are quintessential Coffee Region.", "status": "confirmed", "lat": 4.6375, "lng": -75.5700 },
+        { "id": "d2a6", "time": "4:00 PM", "icon": "👀", "type": "activity", "title": "Mirador Alto de la Cruz", "detail": "Climb 250+ stairs to the hilltop viewpoint for sweeping views of the Cocora Valley and surrounding green mountains. Best light in late afternoon.", "status": "confirmed", "lat": 4.6360, "lng": -75.5725 },
+        { "id": "d2a7", "time": "6:00 PM", "icon": "🏨", "type": "accommodation", "title": "Check into Salento hostel or finca", "detail": "Stay at a countryside finca for the full coffee region experience, or a hostel in town for easy access to nightlife and restaurants.", "status": "confirmed", "lat": 4.6374, "lng": -75.5711 }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-03-22",
+      "title": "Day 3 — Cocora Valley & Departure",
+      "location": "Cocora Valley → Armenia",
+      "items": [
+        { "id": "d3a1", "time": "6:30 AM", "icon": "🚙", "type": "transport", "title": "Willys jeep to Cocora Valley", "detail": "Iconic open-back Willys jeeps depart from the plaza when full. 30-min ride through mountain roads. COP 4,000 each way.", "status": "confirmed", "lat": 4.6372, "lng": -75.5711 },
+        { "id": "d3a2", "time": "7:00 AM", "icon": "🥾", "type": "activity", "title": "Valle de Cocora hike", "detail": "Full loop trail (~5 hr, 12 km) through cloud forest past the world's tallest palm trees (wax palms, up to 60m). Trail can be muddy — boots recommended. Entry ~COP 5,000.", "status": "confirmed", "lat": 4.6381, "lng": -75.4872 },
+        { "id": "d3a3", "time": "9:30 AM", "icon": "🐦", "type": "activity", "title": "Acaime Hummingbird Sanctuary", "detail": "Midway through the loop trail, stop at Acaime for hot chocolate and dozens of hummingbird species buzzing around feeders. Entry COP 7,000 + hot drink.", "status": "confirmed", "lat": 4.6300, "lng": -75.4917 },
+        { "id": "d3a4", "time": "12:30 PM", "icon": "🚙", "type": "transport", "title": "Willys jeep back to Salento", "detail": "Catch a return jeep from the valley entrance. They run regularly throughout the day.", "status": "confirmed", "lat": 4.6381, "lng": -75.4872 },
+        { "id": "d3a5", "time": "1:00 PM", "icon": "🍽️", "type": "food", "title": "Farewell lunch in Salento", "detail": "Last meal on the plaza — try bandeja paisa or another round of fresh trucha. Pick up some locally roasted coffee beans to take home.", "status": "confirmed", "lat": 4.6372, "lng": -75.5711 },
+        { "id": "d3a6", "time": "3:00 PM", "icon": "🚌", "type": "transport", "title": "Bus to Armenia airport", "detail": "Shared van or bus back to El Edén Airport (~1 hr). Allow extra time for mountain roads.", "status": "confirmed", "lat": 4.4528, "lng": -75.7664 },
+        { "id": "d3a7", "time": "5:30 PM", "icon": "✈️", "type": "transport", "title": "Depart Armenia (AXM)", "detail": "Evening flight back to Bogotá for connection or onward travel.", "status": "confirmed", "lat": 4.4528, "lng": -75.7664 }
+      ]
+    }
+  ],
+  "weather": [
+    { "day": "2026-03-20", "icon": "🌤️", "high": 19, "low": 8, "rain": 20 },
+    { "day": "2026-03-21", "icon": "☀️", "high": 26, "low": 14, "rain": 10 },
+    { "day": "2026-03-22", "icon": "🌤️", "high": 25, "low": 13, "rain": 15 }
+  ],
+  "contacts": [
+    { "icon": "🚨", "name": "Colombia Emergency", "role": "Police / Ambulance / Fire", "phone": "123" },
+    { "icon": "🏥", "name": "Fundación Santa Fe", "role": "Bogotá Hospital (English-speaking)", "phone": "+57-601-603-0303" },
+    { "icon": "ℹ️", "name": "Punto de Información Turística", "role": "Salento Tourist Info", "phone": "+57-606-759-3231" }
+  ],
+  "group": [
+    { "id": "g1", "name": "Scott", "avatar": "🤠", "role": "host", "color": "#0D7377" }
+  ],
+  "notifications": [],
+  "changeLog": []
+}

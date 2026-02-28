@@ -1,0 +1,207 @@
+{
+  "destinations": {
+    "bogota": {
+      "title": "Bogotá",
+      "tagline": "South America's Cultural Powerhouse at 2,640 Meters",
+      "region": "andean",
+      "bestMonths": ["Dec", "Jan", "Feb", "Mar", "Jul", "Aug"],
+      "budgetPerDay": { "backpacker": 25, "midRange": 70, "luxury": 200 },
+      "gettingThere": "Fly to El Dorado International Airport (BOG) — Colombia's main hub with direct flights from North America, Europe, and across Latin America. Uber or taxi to La Candelaria ~COP 25,000 ($6) in 30–60 min depending on traffic.",
+      "highlights": ["Museo del Oro (Gold Museum)", "La Candelaria historic quarter", "Monserrate cable car & sunset", "Plaza de Bolívar", "Museo Botero", "Usaquén Sunday flea market", "Paloquemao food market", "Zona G & Zona T dining"],
+      "essentials": {
+        "gettingAround": "TransMilenio bus rapid transit covers the city. Uber and DiDi widely used. Taxis yellow and metered — insist on the meter. Altitude sickness possible on arrival; take it easy the first day.",
+        "airport": "El Dorado International (BOG)",
+        "trainConnections": ["Flight to Medellín (1 hr, ~COP 150,000)", "Flight to Cartagena (1.5 hr, ~COP 180,000)", "Bus to Villa de Leyva (4 hr, ~COP 35,000)"],
+        "language": "Spanish, some English in upscale areas and hostels"
+      }
+    },
+    "medellin": {
+      "title": "Medellín",
+      "tagline": "City of Eternal Spring",
+      "region": "andean",
+      "bestMonths": ["Dec", "Jan", "Feb", "Jun", "Jul", "Aug"],
+      "budgetPerDay": { "backpacker": 22, "midRange": 60, "luxury": 180 },
+      "gettingThere": "Fly to José María Córdova International Airport (MDE) in Rionegro — 45 min shuttle or taxi to the city (~COP 90,000 / $22). Domestic alternative: Enrique Olaya Herrera (EOH) in the city center for some routes.",
+      "highlights": ["Comuna 13 graffiti tour & escalators", "Plaza Botero sculptures", "MetroCable ride over the valley", "Parque Arví nature reserve", "El Poblado dining & nightlife", "Guatapé & Piedra del Peñol day trip", "Jardín Botánico", "Museo de Antioquia"],
+      "essentials": {
+        "gettingAround": "Metro is clean, cheap, and efficient — covers main corridors plus MetroCable gondolas to hillside neighborhoods. Uber and DiDi everywhere. Rental bikes via EnCicla (free public system).",
+        "airport": "José María Córdova International (MDE)",
+        "trainConnections": ["Flight to Bogotá (1 hr, ~COP 150,000)", "Flight to Cartagena (1.5 hr, ~COP 170,000)", "Bus to Salento (6 hr, ~COP 45,000)"],
+        "language": "Spanish, good English in El Poblado and Laureles"
+      }
+    },
+    "cartagena": {
+      "title": "Cartagena",
+      "tagline": "The Jewel of the Caribbean",
+      "region": "caribbean",
+      "bestMonths": ["Dec", "Jan", "Feb", "Mar", "Jul"],
+      "budgetPerDay": { "backpacker": 30, "midRange": 80, "luxury": 250 },
+      "gettingThere": "Fly to Rafael Núñez International Airport (CTG). Taxi or Uber to the Walled City ~COP 15,000 ($4) in 15 min. Direct flights from major US cities, Panama, and all Colombian cities.",
+      "highlights": ["Walled City (Ciudad Amurallada) UNESCO walk", "Castillo San Felipe de Barajas", "Getsemaní street art & nightlife", "Rosario Islands day trip", "Playa Blanca beach", "Torre del Reloj (Clock Tower)", "Fresh ceviche at the market", "Sunset cocktails on city walls"],
+      "essentials": {
+        "gettingAround": "Walled City and Getsemaní completely walkable. Uber for Bocagrande and further. Boats to Rosario Islands from the port. Be prepared for heat and humidity — carry water.",
+        "airport": "Rafael Núñez International (CTG)",
+        "trainConnections": ["Flight to Bogotá (1.5 hr, ~COP 180,000)", "Flight to Medellín (1.5 hr, ~COP 170,000)", "Bus to Santa Marta (4 hr, ~COP 40,000)"],
+        "language": "Spanish, decent English in tourist areas"
+      }
+    },
+    "santa-marta": {
+      "title": "Santa Marta",
+      "tagline": "Where the Sierra Nevada Meets the Caribbean Sea",
+      "region": "caribbean",
+      "bestMonths": ["Dec", "Jan", "Feb", "Mar", "Jul", "Aug"],
+      "budgetPerDay": { "backpacker": 20, "midRange": 55, "luxury": 160 },
+      "gettingThere": "Fly to Simón Bolívar International Airport (SMR). Taxi to centro ~COP 12,000 ($3). Direct flights from Bogotá, Medellín, and Cali. Bus from Cartagena ~4 hours.",
+      "highlights": ["Tayrona National Park beaches & jungle", "Ciudad Perdida (Lost City) 4–6 day trek", "Minca mountain village & coffee farms", "Taganga fishing village & diving", "Playa Cristal boat trip", "Quinta de San Pedro Alejandrino", "Palomino tubing & beach", "Sierra Nevada indigenous culture"],
+      "essentials": {
+        "gettingAround": "City center walkable. Colectivos and buses to Tayrona (~COP 7,000) and Minca. Uber limited — use local taxis. Book Ciudad Perdida trek through licensed agencies only (Wiwa Tours, Expotur, Magic Tour).",
+        "airport": "Simón Bolívar International (SMR)",
+        "trainConnections": ["Bus to Cartagena (4 hr, ~COP 40,000)", "Flight to Bogotá (1.5 hr, ~COP 160,000)", "Bus to Palomino (2 hr, ~COP 15,000)"],
+        "language": "Spanish, limited English except at hostels"
+      }
+    },
+    "san-andres": {
+      "title": "San Andrés",
+      "tagline": "Colombia's Caribbean Island Paradise",
+      "region": "caribbean",
+      "bestMonths": ["Jan", "Feb", "Mar", "Apr", "Oct", "Nov"],
+      "budgetPerDay": { "backpacker": 35, "midRange": 90, "luxury": 250 },
+      "gettingThere": "Fly to Gustavo Rojas Pinilla Airport (ADZ). Must purchase a tourist tax card (tarjeta de turismo, ~COP 130,000 / $32) on arrival. Direct flights from Bogotá, Medellín, Cali, and Cartagena.",
+      "highlights": ["Johnny Cay island day trip", "Seven-color sea (mar de siete colores)", "Hoyo Soplador (Blowing Hole)", "La Piscinita natural pool", "Spratt Bight beach walk", "West View snorkeling", "Golf cart island tour", "Seafood at San Luis fishing village"],
+      "essentials": {
+        "gettingAround": "Rent a golf cart (~COP 150,000/day) to circle the island. Motorbikes also popular. Taxis available. Boats to Johnny Cay and Aquarium from Spratt Bight dock.",
+        "airport": "Gustavo Rojas Pinilla (ADZ)",
+        "trainConnections": ["Flight to Bogotá (2 hr, ~COP 200,000)", "Flight to Providencia (20 min, ~COP 300,000)", "Flight to Cartagena (1.5 hr, ~COP 200,000)"],
+        "language": "Spanish, English Creole (local Raizal language), some English"
+      }
+    },
+    "cali": {
+      "title": "Cali",
+      "tagline": "The World Capital of Salsa",
+      "region": "pacific",
+      "bestMonths": ["Dec", "Jan", "Jun", "Jul", "Aug"],
+      "budgetPerDay": { "backpacker": 20, "midRange": 55, "luxury": 160 },
+      "gettingThere": "Fly to Alfonso Bonilla Aragón International Airport (CLO) in Palmira — 30 min taxi to the city (~COP 60,000 / $15). Direct flights from Bogotá, Medellín, and some US cities.",
+      "highlights": ["Salsa dancing at Tin Tin Deo & Zaperoco", "Cristo Rey hilltop statue", "San Antonio colonial neighborhood", "Gato del Río (Cat Park)", "La Merced church & museum", "Museo La Tertulia contemporary art", "Feria de Cali (Dec salsa festival)", "Pacific coast seafood"],
+      "essentials": {
+        "gettingAround": "MIO bus system covers the city. Uber and DiDi available. Walkable in San Antonio and centro. Take salsa lessons — many schools in Barrio Obrero and El Peñón offer drop-in classes.",
+        "airport": "Alfonso Bonilla Aragón International (CLO)",
+        "trainConnections": ["Flight to Bogotá (1 hr, ~COP 140,000)", "Flight to Medellín (1 hr, ~COP 150,000)", "Bus to Salento (5 hr, ~COP 40,000)"],
+        "language": "Spanish, very limited English"
+      }
+    },
+    "villa-de-leyva": {
+      "title": "Villa de Leyva",
+      "tagline": "Colombia's Best-Preserved Colonial Town",
+      "region": "andean",
+      "bestMonths": ["Dec", "Jan", "Feb", "Jun", "Jul", "Aug"],
+      "budgetPerDay": { "backpacker": 18, "midRange": 50, "luxury": 140 },
+      "gettingThere": "No airport — reach by bus from Bogotá (4 hr, ~COP 35,000) or Tunja (45 min). Best as a weekend escape from Bogotá. Comfortable buses depart from Terminal Salitre.",
+      "highlights": ["Plaza Mayor — Colombia's largest cobblestone square", "El Fósil (160-million-year-old kronosaurus)", "El Infiernito astronomical site", "Casa Terracota (Terracotta House)", "Wine & olive oil tastings", "Pozos Azules (Blue Wells)", "Raquirá pottery village day trip", "Convento del Santo Ecce Homo"],
+      "essentials": {
+        "gettingAround": "Completely walkable town center. Tuk-tuks and taxis for outlying sites. Rent a bicycle for surrounding countryside. Day trips to Ráquira and Ecce Homo by taxi or colectivo.",
+        "airport": "Nearest: Bogotá El Dorado (BOG)",
+        "trainConnections": ["Bus to Bogotá (4 hr, ~COP 35,000)", "Bus to Tunja (45 min, ~COP 8,000)", "Bus to Barichara via Tunja & Bucaramanga (8 hr total)"],
+        "language": "Spanish only, very little English"
+      }
+    },
+    "salento": {
+      "title": "Salento",
+      "tagline": "Gateway to the Coffee Region & Cocora Valley",
+      "region": "andean",
+      "bestMonths": ["Dec", "Jan", "Feb", "Jun", "Jul", "Aug"],
+      "budgetPerDay": { "backpacker": 18, "midRange": 45, "luxury": 120 },
+      "gettingThere": "No airport — bus from Armenia (45 min, ~COP 8,000) or Pereira (1.5 hr, ~COP 12,000). Fly into Armenia (AXM) or Pereira (PEI), then connect by bus. From Medellín by bus ~6 hours.",
+      "highlights": ["Valle de Cocora wax palm hike", "Coffee finca tours & tastings", "Calle Real colorful shophouses", "Mirador Alto de la Cruz viewpoint", "Trout farms & fresh trucha", "Acaime Hummingbird Sanctuary", "Filandia nearby town", "Artisan craft shops on the plaza"],
+      "essentials": {
+        "gettingAround": "Town is tiny and walkable. Willy jeeps (Willys) to Cocora Valley from plaza (~COP 4,000 each way, 30 min). Shared jeeps depart when full. Boots recommended for Cocora Valley — trail gets muddy.",
+        "airport": "Nearest: Armenia (AXM) / Pereira (PEI)",
+        "trainConnections": ["Jeep to Cocora Valley (30 min, ~COP 4,000)", "Bus to Armenia (45 min, ~COP 8,000)", "Bus to Medellín (6 hr, ~COP 45,000)"],
+        "language": "Spanish only"
+      }
+    },
+    "barichara": {
+      "title": "Barichara",
+      "tagline": "Colombia's Most Beautiful Town",
+      "region": "andean",
+      "bestMonths": ["Dec", "Jan", "Feb", "Jun", "Jul", "Aug"],
+      "budgetPerDay": { "backpacker": 18, "midRange": 45, "luxury": 130 },
+      "gettingThere": "No airport — reach by bus from Bucaramanga (3 hr, ~COP 25,000) via San Gil (45 min). Fly to Bucaramanga (BGA) then connect by bus. The road from San Gil is scenic and winding.",
+      "highlights": ["Camino Real stone path to Guane", "Parque Principal & colonial architecture", "Mirador overlooking Chicamocha Canyon", "Paper workshop (Taller de Papel)", "Capilla de Santa Bárbara sunset", "Stone-carved street details", "Chicamocha National Park day trip", "Traditional ant egg cuisine (hormigas culonas)"],
+      "essentials": {
+        "gettingAround": "Entirely walkable — bring comfortable shoes for cobblestones. Camino Real to Guane is 9 km one-way (2–3 hr hike). Taxi or moto-taxi back from Guane. San Gil nearby for adventure sports.",
+        "airport": "Nearest: Bucaramanga Palonegro (BGA)",
+        "trainConnections": ["Bus to San Gil (45 min, ~COP 7,000)", "Bus to Bucaramanga (3 hr, ~COP 25,000)", "San Gil to Bogotá by bus (7 hr, ~COP 50,000)"],
+        "language": "Spanish only"
+      }
+    },
+    "leticia": {
+      "title": "Leticia",
+      "tagline": "Gateway to the Colombian Amazon",
+      "region": "amazon-orinoco",
+      "bestMonths": ["Jun", "Jul", "Aug", "Sep"],
+      "budgetPerDay": { "backpacker": 30, "midRange": 80, "luxury": 220 },
+      "gettingThere": "Fly to Alfredo Vásquez Cobo Airport (LET) — no roads connect Leticia to the rest of Colombia. Flights from Bogotá only (~2 hr). Twin city with Tabatinga, Brazil — walk across the border freely.",
+      "highlights": ["Amazon jungle lodge stays", "Pink river dolphin spotting", "Monkey Island (Isla de los Micos)", "Puerto Nariño eco-village boat trip", "Victoria Regia giant water lilies", "Night safari & caiman spotting", "Indigenous community visits", "Three-borders point (Colombia, Brazil, Peru)"],
+      "essentials": {
+        "gettingAround": "Town center walkable. River boats for all excursions — arrange through your lodge or local agencies. Book multi-day jungle stays in advance. Bring insect repellent, rain gear, and waterproof bags.",
+        "airport": "Alfredo Vásquez Cobo (LET)",
+        "trainConnections": ["Flight to Bogotá (2 hr, ~COP 250,000)", "Boat to Puerto Nariño (2 hr, ~COP 35,000)", "Walk to Tabatinga, Brazil (no border control)"],
+        "language": "Spanish, Portuguese in Tabatinga, indigenous languages, very limited English"
+      }
+    },
+    "tatacoa-desert": {
+      "title": "Tatacoa Desert",
+      "tagline": "Colombia's Otherworldly Red & Grey Badlands",
+      "region": "andean",
+      "bestMonths": ["Jun", "Jul", "Aug", "Sep", "Dec", "Jan"],
+      "budgetPerDay": { "backpacker": 15, "midRange": 40, "luxury": 100 },
+      "gettingThere": "No airport — bus from Neiva (45 min, ~COP 10,000) to Villavieja, then moto-taxi or colectivo into the desert. Fly to Neiva (NVA) from Bogotá or bus from Bogotá (5 hr, ~COP 40,000). Can combine with San Agustín on a southern loop.",
+      "highlights": ["Stargazing at the Astronomical Observatory", "El Cusco red canyon landscape", "Los Hoyos grey desert formations", "Natural swimming pool in the desert", "Paleontological museum in Villavieja", "Cactus-covered badlands photography", "Valle de los Xilópalos fossil trail", "Swimming under the stars"],
+      "essentials": {
+        "gettingAround": "Moto-taxi from Villavieja to the desert (~COP 15,000). Walking between El Cusco and Los Hoyos is possible but hot (7 km). Bring tons of water and sun protection. Best stargazing on clear nights — check moon phase.",
+        "airport": "Nearest: Neiva Benito Salas (NVA)",
+        "trainConnections": ["Bus to Neiva (45 min, ~COP 10,000)", "Neiva to Bogotá by bus (5 hr, ~COP 40,000)", "Neiva to San Agustín by bus (5 hr, ~COP 30,000)"],
+        "language": "Spanish only"
+      }
+    },
+    "providencia": {
+      "title": "Providencia",
+      "tagline": "The Caribbean's Best-Kept Secret",
+      "region": "caribbean",
+      "bestMonths": ["Jan", "Feb", "Mar", "Apr", "Nov"],
+      "budgetPerDay": { "backpacker": 40, "midRange": 100, "luxury": 280 },
+      "gettingThere": "Fly from San Andrés to El Embrujo Airport (PVA) — 20-minute flight on small prop planes (Satena airline, ~COP 300,000 one-way). Alternatively, a catamaran runs from San Andrés (~3.5 hr, often cancelled due to rough seas). Book flights well in advance — limited seats.",
+      "highlights": ["Crab Cay (Cayo Cangrejo) snorkeling", "Manzanillo Beach", "The Peak hike (360° island panorama)", "McBean Lagoon National Park", "Santa Catalina island & Fort Warwick", "Freshwater Bay & Southwest Bay", "Reggae & Raizal culture", "World-class diving & sea of seven colors"],
+      "essentials": {
+        "gettingAround": "Rent a scooter (~COP 80,000/day) or bicycle. Island is tiny — rideable in an hour. Small lanchas (boats) to Crab Cay and Santa Catalina. No Uber — use local moto-taxis. Cash preferred; limited ATMs.",
+        "airport": "El Embrujo (PVA)",
+        "trainConnections": ["Flight to San Andrés (20 min, ~COP 300,000)", "San Andrés to Bogotá (2 hr, ~COP 200,000)"],
+        "language": "English Creole (Raizal), Spanish, some English"
+      }
+    }
+  },
+  "connections": {
+    "bogota-medellin": { "mode": "flight", "duration": "1 hour", "operator": "Avianca / LATAM / Viva", "cost": "~COP 150,000 ($37)" },
+    "bogota-cartagena": { "mode": "flight", "duration": "1.5 hours", "operator": "Avianca / LATAM / Viva", "cost": "~COP 180,000 ($44)" },
+    "bogota-cali": { "mode": "flight", "duration": "1 hour", "operator": "Avianca / LATAM", "cost": "~COP 140,000 ($34)" },
+    "bogota-santa-marta": { "mode": "flight", "duration": "1.5 hours", "operator": "Avianca / LATAM", "cost": "~COP 160,000 ($39)" },
+    "bogota-san-andres": { "mode": "flight", "duration": "2 hours", "operator": "Avianca / Viva", "cost": "~COP 200,000 ($49)" },
+    "bogota-leticia": { "mode": "flight", "duration": "2 hours", "operator": "Avianca / LATAM", "cost": "~COP 250,000 ($61)" },
+    "bogota-villa-de-leyva": { "mode": "bus", "duration": "4 hours", "operator": "Libertadores / Omega", "cost": "~COP 35,000 ($9)" },
+    "medellin-cartagena": { "mode": "flight", "duration": "1.5 hours", "operator": "Avianca / LATAM / Viva", "cost": "~COP 170,000 ($42)" },
+    "medellin-salento": { "mode": "bus", "duration": "6 hours", "operator": "Flota Occidental", "cost": "~COP 45,000 ($11)" },
+    "cartagena-santa-marta": { "mode": "bus", "duration": "4 hours", "operator": "Marsol / Berlinas", "cost": "~COP 40,000 ($10)" },
+    "san-andres-providencia": { "mode": "flight", "duration": "20 minutes", "operator": "Satena", "cost": "~COP 300,000 ($73)" },
+    "cali-salento": { "mode": "bus", "duration": "5 hours", "operator": "Expreso Palmira", "cost": "~COP 40,000 ($10)" },
+    "barichara-bucaramanga": { "mode": "bus via San Gil", "duration": "3 hours", "operator": "Cotrasangil / Omega", "cost": "~COP 25,000 ($6)" }
+  },
+  "travelTips": {
+    "currency": "Colombian Peso (COP). Cards widely accepted in cities and tourist areas. Always carry cash for small towns, colectivos, and street food. ATMs (Bancolombia, Davivienda) everywhere — withdraw in multiples of COP 100,000.",
+    "visaFree": "US, EU, UK, Canada, Australia — visa-free for 90 days (extendable to 180 days). Passport valid for 6+ months required. No yellow fever certificate needed for most areas, but recommended for Amazon and Pacific coast.",
+    "bestOverallMonths": "December to March and June to August (dry seasons). Varies by region — Caribbean coast driest Dec–Apr; Coffee Region and Andes best Jun–Sep; Amazon driest Jun–Sep.",
+    "winterNote": "Colombia has no winter — straddling the equator means consistent temperatures year-round. Altitude determines climate: Bogotá is cool (8–18°C), Medellín is spring-like (17–28°C), and the coast is hot (28–34°C).",
+    "simCard": "Buy a Claro, Movistar, or Tigo SIM at the airport for ~COP 15,000–30,000 ($4–7) with good 4G data. Coverage excellent in cities, spotty in rural areas and Amazon.",
+    "transport": "Domestic flights are cheap — book Avianca, LATAM, Viva, or Satena. Long-distance buses comfortable (look for 'ejecutivo' or 'preferencial' class). Uber works in major cities. For Coffee Region, old Willys jeeps are the local transport."
+  }
+}
