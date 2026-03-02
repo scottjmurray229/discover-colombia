@@ -71,6 +71,27 @@ const topics: TopicSection[] = [
     ],
   },
   {
+    id: 'gear',
+    icon: '🎒',
+    title: 'Gear Worth Packing',
+    gradient: 'linear-gradient(135deg, #1A2332 0%, #0D7377 100%)',
+    items: [
+      { label: 'DJI Mini 4 Pro Drone', text: 'Colombia\'s coffee region from above, Cartagena\'s walled city, Cocora Valley\'s wax palms — extraordinary drone country. The Mini 4 Pro is under 249g (no registration required in most cases) with 34-minute flight time and obstacle avoidance. <a href="https://www.amazon.com/dp/B0CFF1SJ3P?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Peak Design Travel Tripod', text: 'Compact and lightweight — folds to 39cm and weighs 1.27kg. The ball head and leg locks are brilliant engineering. Fits in a carry-on without drama. <a href="https://www.amazon.com/dp/B085BQS6K4?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'GoPro HERO13', text: 'Waterproof to 10m out of the box and rugged enough for coffee region hikes, Caribbean boat trips, and Cocora Valley trekking. <a href="https://www.amazon.com/dp/B0DCM34GXX?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Sony WH-1000XM5 Headphones', text: 'Industry-best noise cancellation for the Bogota-Miami-East Coast flights. 30 hours of battery and foldable for pack-friendly storage. <a href="https://www.amazon.com/dp/B09XS7JWHH?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Apple AirTag 4-Pack', text: 'One in each bag, one in a jacket pocket. Peace of mind at every airport. <a href="https://www.amazon.com/dp/B0D54JZTHY?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Pacsafe Metrosafe LS200', text: 'Bogota\'s La Candelaria and Medellin\'s El Centro are beautiful but real theft risk; the right bag makes a difference. This anti-theft crossbody has slash-resistant straps, lockable zippers, and RFID blocking. <a href="https://www.amazon.com/dp/B017BPMS3I?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Nikon PROSTAFF Binoculars', text: 'Colombia has more bird species than any country on earth — over 1,900. Proper optics open an entirely different Colombia. The PROSTAFF series offers excellent low-light performance at a price that won\'t wreck your travel budget. <a href="https://www.amazon.com/dp/B0B3JSRZFJ?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Merrell Moab 3 Waterproof Boots', text: 'The coffee region\'s finca trails and Ciudad Perdida trek demand real hiking boots. Hotel flip-flops are a fast way to twist an ankle. The Moab 3 is waterproof, grippy, and breaks in quickly. <a href="https://www.amazon.com/dp/B0C64B38Z8?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'EPICKA Universal Travel Adapter', text: 'Colombia uses Type A/B outlets — same as the US — but the EPICKA covers you when hopping to neighboring countries and charges up to 4 devices simultaneously. <a href="https://www.amazon.com/dp/B078S3M2NX?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Anker 735 GaN Charger (65W)', text: 'Three ports (2 USB-C, 1 USB-A), 65W, roughly the size of a large lipstick. Replaced my power brick on every trip. <a href="https://www.amazon.com/dp/B09C5RG6KV?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Anker Power Bank', text: 'Full phone charges on the road — useful for long hikes in the coffee region and when Cartagena\'s colonial-building outlets are limited. <a href="https://www.amazon.com/dp/B0DWCPS2Y4?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Flypal Inflatable Foot Rest', text: 'Bogota is 5–7 hours from Miami; Medellin is 4–5 from the East Coast. An inflatable foot rest turns economy into something close to business class comfort on long-hauls. <a href="https://www.amazon.com/dp/B074T9CP81?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+      { label: 'Sockwell Compression Socks', text: 'Altitude changes from Bogota (2,640m) to Cartagena (sea level) back to Medellin (1,500m) in a single trip can surprise your legs. Compression socks help — and they\'re good for the flights. <a href="https://www.amazon.com/dp/B089DRF9WM?tag=discovercol-20" target="_blank" rel="noopener">Check price on Amazon</a>.' },
+    ],
+  },
+  {
     id: 'medellin',
     icon: '🌆',
     title: 'Medellin\'s Upscale Scene',
@@ -221,6 +242,11 @@ const topics: TopicSection[] = [
       </div>
     </div>
   </section>
+
+  <!-- Affiliate Disclosure -->
+  <div class="container-content ft-reveal" style="padding-bottom: 0;">
+    <p class="ft-affiliate-disclosure">Some links on this page are affiliate links — we earn a small commission if you purchase through them, at no extra cost to you. We only recommend gear we personally use. <a href="/legal/affiliate-disclosure/">Full disclosure</a>.</p>
+  </div>
 
   <!-- Bottom CTA -->
   <section class="ft-cta-section ft-reveal">
@@ -700,6 +726,25 @@ const topics: TopicSection[] = [
 
   .ft-protips-card .scott-tips :global(a:hover) {
     text-decoration-color: #FB923C;
+  }
+
+  /* ================================================================
+     AFFILIATE DISCLOSURE
+     ================================================================ */
+  .ft-affiliate-disclosure {
+    font-size: 0.75rem;
+    color: #4A5568;
+    line-height: 1.5;
+    text-align: center;
+    padding: var(--space-4) var(--space-6);
+    background: var(--color-sky);
+    border-radius: 10px;
+    margin-bottom: var(--space-4);
+  }
+
+  .ft-affiliate-disclosure a {
+    color: var(--color-ocean-teal);
+    text-decoration: underline;
   }
 
   /* ================================================================
