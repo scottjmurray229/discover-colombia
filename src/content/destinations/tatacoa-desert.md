@@ -2,7 +2,7 @@
 title: "Tatacoa Desert"
 description: "Discover the Tatacoa Desert — Colombia's otherworldly landscape of red and grey badlands, world-class stargazing, and surreal terrain in the heart of Huila department."
 heroImage: ""
-tagline: "Otherworldly Badlands Under Colombia's Clearest Skies"
+tagline: "Mars-red canyons, cactus forests, and the clearest dark skies in Colombia — a desert that defies expectations"
 region: "andean"
 bestMonths: ["Jun", "Jul", "Aug", "Sep", "Dec", "Jan"]
 budgetPerDay:

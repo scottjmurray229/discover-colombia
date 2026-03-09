@@ -2,7 +2,7 @@
 title: "Barichara"
 description: "Visit Barichara — Colombia's prettiest colonial town with stone-paved streets, the historic Camino Real hike to Guane, and thriving artisan workshops in Santander."
 heroImage: ""
-tagline: "Colombia's Most Beautiful Town, Carved in Stone"
+tagline: "Stone streets, terracotta rooftops, bougainvillea, and the most impossibly perfect small town in Colombia"
 region: "andean"
 bestMonths: ["Dec", "Jan", "Feb", "Jun", "Jul", "Aug"]
 budgetPerDay:

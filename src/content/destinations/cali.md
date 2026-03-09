@@ -2,7 +2,7 @@
 title: "Cali"
 description: "Discover Cali — the undisputed world capital of salsa, with electric nightlife, Afro-Colombian culture, Cristo Rey views, and the soul of Colombia's Pacific region."
 heroImage: ""
-tagline: "World Capital of Salsa"
+tagline: "Where salsa is religion, the Caribbean chicken is transcendent, and Afro-Colombian culture runs in the streets"
 region: "pacific"
 bestMonths: ["Dec", "Jan", "Jul", "Aug"]
 budgetPerDay:

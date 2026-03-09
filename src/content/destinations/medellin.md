@@ -2,7 +2,7 @@
 title: "Medellín"
 description: "Discover Medellín — Colombia's City of Eternal Spring with innovative urban culture, Comuna 13's street art, metro cable views, and nearby coffee farms."
 heroImage: ""
-tagline: "The City of Eternal Spring"
+tagline: "The world's greatest urban comeback — cable cars, transformed comunas, Colombia's best food scene, and eternal spring weather"
 region: "andean"
 bestMonths: ["Dec", "Jan", "Feb", "Jul", "Aug"]
 budgetPerDay:

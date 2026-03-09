@@ -2,7 +2,7 @@
 title: "Santa Marta"
 description: "Explore Santa Marta — South America's oldest city, gateway to Tayrona National Park, the Lost City trek, and the snow-capped Sierra Nevada mountains."
 heroImage: ""
-tagline: "South America's Oldest City, Gateway to the Wild"
+tagline: "Colombia's Caribbean gateway — Lost City treks, Tayrona National Park, and the country's most beautiful coastline"
 region: "caribbean"
 bestMonths: ["Dec", "Jan", "Feb", "Mar", "Jul", "Aug"]
 budgetPerDay:
