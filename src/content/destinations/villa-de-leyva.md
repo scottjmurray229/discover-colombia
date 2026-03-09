@@ -2,6 +2,7 @@
 title: "Villa de Leyva"
 description: "Explore Villa de Leyva — a perfectly preserved colonial town with Colombia's largest plaza, fossil sites, desert landscapes, and artisan culture in Boyaca."
 heroImage: ""
+heroAlt: "Cobblestone Plaza Mayor and colonial white-walled houses of Villa de Leyva, Colombia"
 tagline: "Fossils in the cobblestones, one of South America's biggest plazas, and the best-preserved colonial town in the Andes"
 region: "andean"
 bestMonths: ["Dec", "Jan", "Feb", "Jul", "Aug"]

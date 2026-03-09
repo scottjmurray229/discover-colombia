@@ -2,6 +2,7 @@
 title: "Cartagena"
 description: "Discover Cartagena de Indias — Colombia's jewel of colonial architecture, Caribbean flavours, walled old town charm, and island escapes to the Rosario Islands."
 heroImage: ""
+heroAlt: "Colorful bougainvillea-draped colonial walls of Cartagena's walled city, Colombia"
 tagline: "Bougainvillea balconies, walled old city magic, Getsemaní street art, and the most beautiful colonial city in the Americas"
 region: "caribbean"
 bestMonths: ["Dec", "Jan", "Feb", "Mar"]

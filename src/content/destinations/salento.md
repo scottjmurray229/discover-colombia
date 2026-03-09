@@ -2,6 +2,7 @@
 title: "Salento"
 description: "Discover Salento — the gateway to Colombia's Coffee Region with the towering wax palms of Cocora Valley, vibrant coffee farm tours, and colorful Paisa architecture."
 heroImage: ""
+heroAlt: "Valle de Cocora towering wax palm trees and cloud-forested ridgeline, Salento, Colombia"
 tagline: "Painted Jeeps, wax palm valleys, tin-roofed coffee farms, and Colombia's most photogenic highland town"
 region: "andean"
 bestMonths: ["Jan", "Feb", "Jun", "Jul", "Aug"]

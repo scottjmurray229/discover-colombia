@@ -2,6 +2,7 @@
 title: "Bogotá"
 description: "Explore Bogotá — Colombia's high-altitude capital with world-class museums, vibrant street art, Andean cuisine, and the iconic Monserrate viewpoint."
 heroImage: ""
+heroAlt: "Monserrate hilltop church overlooking the sprawling Bogotá skyline, Colombia"
 tagline: "A city of 2,600 metres, two million books at the world's biggest free library, and the Andes looming over everything"
 region: "andean"
 bestMonths: ["Dec", "Jan", "Feb", "Mar"]

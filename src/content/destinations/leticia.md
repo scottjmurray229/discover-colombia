@@ -2,6 +2,7 @@
 title: "Leticia"
 description: "Explore Leticia — Colombia's Amazon gateway at the three-country border with Brazil and Peru, featuring jungle lodges, pink river dolphins, and indigenous communities."
 heroImage: ""
+heroAlt: "Amazon river dolphin and jungle canopy along the Leticia waterfront, Colombia"
 tagline: "The triple border where Colombia, Peru, and Brazil meet — pink river dolphins, piranha fishing, and the Amazon's beating heart"
 region: "amazon-orinoco"
 bestMonths: ["Jul", "Aug", "Sep", "Oct"]

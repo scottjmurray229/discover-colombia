@@ -2,6 +2,7 @@
 title: "San Andrés"
 description: "Explore San Andrés Island — Colombia's Caribbean paradise known as the Sea of Seven Colors, with world-class snorkelling, reggae culture, and island vibes."
 heroImage: ""
+heroAlt: "Crystal-clear Sea of Seven Colors turquoise reef at San Andrés island, Colombia"
 tagline: "Seven shades of Caribbean — Colombia's tropical island escape with the clearest water in the country"
 region: "caribbean"
 bestMonths: ["Jan", "Feb", "Mar", "Apr", "Nov"]

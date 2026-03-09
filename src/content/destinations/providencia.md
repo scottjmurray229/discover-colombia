@@ -2,6 +2,7 @@
 title: "Providencia"
 description: "Discover Providencia — Colombia's pristine Caribbean island paradise with the UNESCO-listed Old Providence McBean Lagoon, Crab Cay snorkeling, and authentic Raizal culture."
 heroImage: ""
+heroAlt: "Fresh-water diving coral reef and Crab Cay turquoise water, Providencia, Colombia"
 tagline: "Fewer than 5,000 people, no cars allowed, zero tourist infrastructure — and waters so clear the reef glows in 30-metre visibility"
 region: "caribbean"
 bestMonths: ["Jan", "Feb", "Mar", "Apr", "Nov", "Dec"]
