@@ -1,0 +1,1291 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Festival Calendar', url: '/festivals/' },
+];
+
+const pageTitle = 'Colombian Festival Calendar 2026';
+const pageDescription = 'From Barranquilla Carnival (the world\'s second-largest) to Medellín\'s Feria de las Flores and Cali\'s 11-day salsa extravaganza — Colombia celebrates louder than almost anywhere on Earth.';
+
+const festivals = [
+  {
+    month: 'Jan',
+    monthIndex: 0,
+    name: 'Carnaval de Negros y Blancos',
+    destination: 'Pasto (near Bogotá)',
+    slug: 'bogota',
+    description: 'The Carnaval de Negros y Blancos in Pasto, in the Andean south near the Ecuadorian border, is a UNESCO Intangible Cultural Heritage celebration that takes place January 2-6. Black Day (January 5) sees revelers cover each other in black grease, paint, and shoe polish — symbolizing equality across racial lines — while White Day (January 6) unleashes talcum powder, foam, and white paint on everyone in range. The carrozas (parade floats) are elaborate satirical sculptures commenting on Colombian politics and society. Pasto\'s Indigenous Andean and mestizo traditions blend in one of South America\'s most unique and genuinely joyful festivals.',
+  },
+  {
+    month: 'Jan',
+    monthIndex: 0,
+    name: 'Festival Internacional de Música Andina',
+    destination: 'Villa de Leyva',
+    slug: 'villa-de-leyva',
+    description: 'Villa de Leyva — the perfectly preserved colonial town three hours north of Bogotá, with one of the largest cobblestone plazas in South America — hosts this January festival celebrating the traditional music of the Colombian Andes: bambuco, torbellino, mapalé, and pasillo. Ensembles from across the Andes regions compete and perform in concerts filling the enormous Plaza Mayor and the colonial churches. January in Villa de Leyva is also dry season — the surrounding mesa landscape is golden and dramatic. The combination of extraordinary colonial architecture, traditional music, and excellent highland climate makes this one of the best-kept festival secrets in Colombia.',
+  },
+  {
+    month: 'Feb',
+    monthIndex: 1,
+    name: 'Carnaval de Barranquilla',
+    destination: 'Cartagena',
+    slug: 'cartagena',
+    description: 'Barranquilla\'s Carnival — officially recognized by UNESCO as Intangible Cultural Heritage of Humanity — is the world\'s second-largest Carnival after Rio, drawing 1.5 to 2 million participants over four days. The Gran Parada brings together cumbia, porro, mapalé, vallenato, and Congo drums in a procession where each musical tradition has its own costumed troupe. The Batalla de Flores (Battle of Flowers) on Saturday is the most spectacular — floats covered in tropical blooms and costumed queens parade through the city. Unlike Rio\'s ticketed Sambódromo, Barranquilla Carnival is largely free and street-based, creating a more participatory atmosphere. Barranquilla is 1.5 hours by bus from Cartagena.',
+  },
+  {
+    month: 'Feb',
+    monthIndex: 1,
+    name: 'Semana de la Costa (Cartagena Film Festival)',
+    destination: 'Cartagena',
+    slug: 'cartagena',
+    description: 'The Cartagena International Film Festival (FICCI) — South America\'s oldest film festival, founded in 1960 — runs in late February to early March in Cartagena\'s colonial walled city. The programa includes Latin American competition films, international retrospectives, and free outdoor screenings in the Plaza de la Aduana and other historic spaces. The combination of world-class cinema and one of the most beautiful colonial cities on Earth makes this a genuinely special film festival experience. Events are spread across Cartagena\'s restored palaces and convents, and the closing-night party in the walled city is legendary in Colombian film circles.',
+  },
+  {
+    month: 'Mar',
+    monthIndex: 2,
+    name: 'Semana Santa Popayán',
+    destination: 'Bogotá',
+    slug: 'bogota',
+    description: 'Popayán — the White City, four hours south of Cali — hosts the most famous and ancient Holy Week processions in Colombia, a tradition dating to 1556. For six nights, from Palm Sunday through Holy Saturday, elaborately costumed brotherhoods (cargueros) carry enormous hand-carved religious floats (pasos) through the city\'s whitewashed colonial streets by candlelight. The processions are silent except for mournful brass bands. In 1983, a devastating earthquake struck Popayán during Holy Week — the city rebuilt and the processions resumed that same year, a testament to the tradition\'s depth. Popayán is reachable from Bogotá by flight or from Cali by a 3-hour bus through spectacular Andean scenery.',
+  },
+  {
+    month: 'Apr',
+    monthIndex: 3,
+    name: 'Festival Iberoamericano de Teatro',
+    destination: 'Bogotá',
+    slug: 'bogota',
+    description: 'Bogotá\'s Festival Iberoamericano de Teatro — held in even-numbered years in April — is the largest theater festival in the world by attendance, drawing 5 to 8 million audience members over 17 days to free and ticketed performances across the city. Companies from 40-plus countries perform in theaters, parks, squares, and streets throughout Bogotá. Free outdoor performances in the Parque Simón Bolívar draw hundreds of thousands. The festival transforms Bogotá into a genuinely exciting cultural city — restaurants open late, streets fill with performers, and the energy rivals anything in Europe. The 2026 edition falls in this window and should not be missed if you\'re in Colombia.',
+  },
+  {
+    month: 'Apr',
+    monthIndex: 3,
+    name: 'Festival de Colonias (Coffee Region)',
+    destination: 'Salento',
+    slug: 'salento',
+    description: 'The Coffee Cultural Landscape around Salento and the Quindío department celebrates its coffee-picking culture in April with the Festival de Colonias — a week of demonstrations, competitions, and communal harvests at the traditional coffee fincas of the region. Salento is the most visited town in the coffee region — a painted wooden village in the Andean hills above the Cocora Valley, where massive wax palms (Colombia\'s national tree) tower over the mist. April is a shoulder month: green, lush, and quieter than the December-January peak. Coffee farm tours, chivas (colorfully painted jeeps), and trucha (trout) restaurants are the main activities outside festival events.',
+  },
+  {
+    month: 'May',
+    monthIndex: 4,
+    name: 'Feria de Manizales',
+    destination: 'Salento',
+    slug: 'salento',
+    description: 'The Feria de Manizales is one of Colombia\'s most important regional celebrations — a week of bullfighting, tango, and carranga music in the Andean coffee city of Manizales (one hour from Salento by chiva). The corridas in the bullring draw Colombian and Spanish matadors of the highest caliber. But the most fascinating element for travelers is the Desfile de Silleteros — a procession echoing Medellín\'s more famous flower parade, with local growers displaying elaborate flower arrangements on bamboo frames carried on their backs. From Salento, the trip to Manizales through coffee-covered Andean slopes is spectacular on its own.',
+  },
+  {
+    month: 'Jun',
+    monthIndex: 5,
+    name: 'Festival de la Leyenda Vallenata',
+    destination: 'Cartagena',
+    slug: 'cartagena',
+    description: 'Vallenato music — a UNESCO-listed Colombian musical tradition combining African drumming, European accordion, and Indigenous Guajiro rhythms — has its world championship in Valledunar, César, each late April to early May. But the music\'s spiritual home extends across the Caribbean coast, and June sees the most concentrated period of vallenato celebrations in towns between Barranquilla and Santa Marta. The legendary accordionist Carlos Vives comes from this tradition. For visitors based in Cartagena, a weekend trip to Valledunar during festival season is one of the great musical experiences available anywhere — the competition for the Crown of Vallenato King has been ongoing since 1968.',
+  },
+  {
+    month: 'Jun',
+    monthIndex: 5,
+    name: 'Jazz en el Parque (Santa Marta)',
+    destination: 'Santa Marta',
+    slug: 'santa-marta',
+    description: 'Santa Marta — Colombia\'s oldest colonial city and gateway to Tayrona National Park and the Lost City — hosts a series of jazz and world music events in June in the historic parks and plazas of the city center. The evenings are warm, the Caribbean light is golden, and the setting among colonial facades and ancient trees is perfect for open-air music. Santa Marta sits between the sea and the Sierra Nevada mountains — the highest coastal mountain range on Earth — and in June the sierra is clear and the sea conditions are excellent. Combining the jazz events with a day trip to Tayrona\'s beaches or a Lost City trek booking makes Santa Marta in June an exceptional base.',
+  },
+  {
+    month: 'Jul',
+    monthIndex: 6,
+    name: 'Rock al Parque (Bogotá)',
+    destination: 'Bogotá',
+    slug: 'bogota',
+    description: 'Rock al Parque is Latin America\'s largest free rock festival — three days in the Parque Simón Bolívar in Bogotá, drawing 150,000 to 200,000 people per day with zero admission charge. The lineup spans heavy metal, punk, indie, hip-hop, and everything adjacent, mixing Colombian acts with international headliners from across Latin America and Europe. The festival was founded in 1995 as a deliberate project to give Bogotá\'s youth a safe, creative outlet — and it has remained free, publicly funded, and genuinely diverse for three decades. The Parque Simón Bolívar is massive enough to handle the crowds, and the backstage area along the lake is one of the more surreal settings for a rock festival anywhere.',
+  },
+  {
+    month: 'Jul',
+    monthIndex: 6,
+    name: 'Feria Artesanal Barichara',
+    destination: 'Barichara',
+    slug: 'barichara',
+    description: 'Barichara — widely considered the most beautiful colonial village in Colombia — hosts its artisanal fair in July, filling the immaculately maintained stone streets with craftspeople from across Santander and neighboring departments. Barichara stone carving (talla en piedra) is a local tradition going back centuries — the village is built entirely of golden sandstone, and the artisans who work it are celebrated nationally. The village sits on a dramatic cliff above the Río Suárez canyon. July is dry season in Santander, ideal for the famous Camino Real walk to the nearby village of Guane, a 3-hour stone-paved trail through century cactus and bromeliad landscape.',
+  },
+  {
+    month: 'Aug',
+    monthIndex: 7,
+    name: 'Feria de las Flores (Medellín)',
+    destination: 'Medellín',
+    slug: 'medellin',
+    description: 'The Feria de las Flores is the most beautiful festival we\'ve attended in Colombia — ten days in early August when Medellín, the City of Eternal Spring, covers itself in flowers. The Desfile de Silleteros is the centerpiece: 500 silleteros from the flower-growing corregimientos in the mountains above Medellín descend into the city carrying silletas — massive flower arrangements mounted on wooden frames worn on their backs — that take months to design and construct. Some silletas weigh 80 kilos and contain 800-plus individual flowers. The parade also features classic cars, Paso Fino horses, and antique Willys jeeps. Nights during the feria fill with concerts, tango events, and the orchid exhibition at the Botanical Garden.',
+  },
+  {
+    month: 'Aug',
+    monthIndex: 7,
+    name: 'Petronio Álvarez Pacific Music Festival',
+    destination: 'Cali',
+    slug: 'cali',
+    description: 'The Festival de Música del Pacífico Petronio Álvarez celebrates the Afro-Colombian musical traditions of the Colombian Pacific coast — chirimía, marimba, currulao, and the incredible percussion traditions of communities whose African heritage has been preserved in extraordinary isolation. Five days in Cali, usually mid-August, featuring live competitions and concerts across multiple stages. The festival is deeply emotional — these are musical traditions that survived slavery and colonialism and have been shared with a wider Colombian audience only in recent decades. The food element is also extraordinary: Pacific coast cuisine (coconut rice, fish ceviche, champús corn drink) is available from vendors throughout the festival grounds.',
+  },
+  {
+    month: 'Aug',
+    monthIndex: 7,
+    name: 'Festival de la Música Colombiana',
+    destination: 'Medellín',
+    slug: 'medellin',
+    description: 'Ibagué, the Music Capital of Colombia (a five-hour bus from Medellín through spectacular Andean valleys), hosts the national Festival de la Música Colombiana each August — a competition and celebration of the full breadth of Colombian musical forms: bambuco, pasillo, torbellino, porro, cumbia, vallenato, and more. The bambuco national championship crowns Colombia\'s best couple dancers in the country\'s most elegant and technically demanding traditional dance. From Medellín, the trip to Ibagué passes through the coffee region and the Armero Memorial — one of the most moving natural disaster memorials in Latin America. Ibagué itself is an overlooked Andean city worth exploring.',
+  },
+  {
+    month: 'Sep',
+    monthIndex: 8,
+    name: 'Colombia Moda (Medellín Fashion Week)',
+    destination: 'Medellín',
+    slug: 'medellin',
+    description: 'Medellín has reinvented itself as Latin America\'s fashion capital, and Colombia Moda — held each July to August at Plaza Mayor — is the hemisphere\'s most important fashion trade event. Colombian fashion is distinctive: it leads the world in swimwear design (Agua Bendita, Maaji, and similar brands are global luxury leaders), and the Colombian denim and activewear industries are world-class. Public runway shows and exhibitions accompany the trade fair. For travelers, the timing coincides with the Feria de las Flores, making early August in Medellín one of the most concentrated cultural experiences available anywhere in South America — orchids, silleteros, fashion shows, and concerts in a city with perfect spring weather.',
+  },
+  {
+    month: 'Oct',
+    monthIndex: 9,
+    name: 'Cali Jazz Festival',
+    destination: 'Cali',
+    slug: 'cali',
+    description: 'Cali — a city whose entire cultural identity is organized around music and dance — hosts its Jazz Festival each October across multiple venues including the Teatro Municipal Enrique Buenaventura and outdoor spaces along the Río Cali. Colombian jazz has its own distinct character: the influence of salsa harmonic structures, Pacific coast percussion traditions, and the Valle del Cauca\'s own musical identity give it a sound unlike the North American or European traditions. International headliners from Cuba, Brazil, and the US mix with Colombia\'s best jazz musicians. Attending a Cali Jazz concert and then walking two blocks to a salsa club for the midnight set is one of the great music-traveler evenings available anywhere.',
+  },
+  {
+    month: 'Oct',
+    monthIndex: 9,
+    name: 'Festival de Literatura de Bogotá',
+    destination: 'Bogotá',
+    slug: 'bogota',
+    description: 'Bogotá holds the UNESCO Creative City of Literature designation — the first city in Latin America to receive it — and the Hay Festival Bogotá each October is the premier literary event in the Spanish-speaking world. Held across multiple venues in the Candelaria historic district and in the modern Corferias convention center, the festival brings García Márquez\'s heirs, established Latin American novelists, international authors, and emerging voices together for readings, debates, and conversations. Events are in Spanish (with some translation), making this particularly rewarding for Spanish-speaking travelers. Bogotá\'s extraordinary chain of public libraries — built under the legendary mayor Antanas Mockus — are worth visiting throughout the year.',
+  },
+  {
+    month: 'Nov',
+    monthIndex: 10,
+    name: 'Cartagena International Film Festival (FICCI)',
+    destination: 'Cartagena',
+    slug: 'cartagena',
+    description: 'The Festival Internacional de Cine de Cartagena de Indias (FICCI) — South America\'s oldest film festival — splits between a February public edition and a November industry edition, both held among the colonial palaces and convents of the walled city. The November edition is more intimate and industry-focused, but public tickets are available for competition screenings. Watching a Colombian or Latin American film in a restored convent courtyard in Cartagena\'s walled city, with warm Caribbean air and colonial lanterns, is a film festival experience genuinely unlike any other on Earth. Cartagena in November is also excellent weather — dry season beginning, seas calm for island day trips to Islas del Rosario.',
+  },
+  {
+    month: 'Nov',
+    monthIndex: 10,
+    name: 'Festival de Cine de Santa Marta',
+    destination: 'Santa-marta',
+    slug: 'santa-marta',
+    description: 'Santa Marta\'s film festival, newer than Cartagena\'s, focuses specifically on Caribbean Colombian cinema and the cinema of the African diaspora — giving a platform to voices and stories rarely seen at mainstream international festivals. Screenings are held in the colonial Plaza de Bolívar and in the Minca mountain community above the city. Minca — a small village in the Sierra Nevada foothills, one hour by motorbike from Santa Marta — has become a destination in its own right for ecotourists and birdwatchers, and combining a festival visit with a few days in the cloud forest makes an extraordinary trip. November is the beginning of dry season on the Colombian Caribbean coast.',
+  },
+  {
+    month: 'Dec',
+    monthIndex: 11,
+    name: 'Feria de Cali',
+    destination: 'Cali',
+    slug: 'cali',
+    description: 'The Feria de Cali is one of the great cultural events in Latin America — eleven days from December 25 through January 5 in which Cali, the World Capital of Salsa, transforms itself into a single city-sized dance floor. Salsódromo parades, bullfighting, concerts, and street parties fill every night. The Salsódromo — modeled conceptually on Rio\'s Sambódromo — sends salsa dance schools and troupes through the streets in competitive parade formation, with judges scoring footwork, costume, and musicality. The canelazo (hot rum and cinnamon drink) flows continuously. Book accommodation and Salsódromo tickets three to four months ahead — December 25-31 is the peak and hotels fill completely.',
+  },
+  {
+    month: 'Dec',
+    monthIndex: 11,
+    name: 'Alumbrado Navideño Medellín',
+    destination: 'Medellín',
+    slug: 'medellin',
+    description: 'Medellín\'s Christmas light displays — the Alumbrado Navideño — are among the most spectacular in the world, and the city takes enormous civic pride in them. From late November through early January, the Río Medellín and its parks along both banks are lined with millions of LED lights in elaborate thematic installations: sea creatures, tropical birds, abstract patterns, and Colombian cultural symbols. The alumbrado runs 14 kilometers along the river. December evenings in Medellín are warm and clear, and families and couples walk the riverbanks for hours. The Metrocable from the El Centro metro station up to Comunas 8 and 13 offers stunning aerial views of the city lights. Medellín in December is genuinely magical.',
+  },
+];
+
+const months = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+
+const monthGradients = [
+  'linear-gradient(135deg, #E8654A 0%, #D4A853 100%)',
+  'linear-gradient(135deg, #C05299 0%, #E8654A 100%)',
+  'linear-gradient(135deg, #4CAF50 0%, #8BC34A 100%)',
+  'linear-gradient(135deg, #FF9800 0%, #FFC107 100%)',
+  'linear-gradient(135deg, #9E9E9E 0%, #BDBDBD 100%)',
+  'linear-gradient(135deg, #0D7377 0%, #4DB6AC 100%)',
+  'linear-gradient(135deg, #1565C0 0%, #42A5F5 100%)',
+  'linear-gradient(135deg, #6A1B9A 0%, #AB47BC 100%)',
+  'linear-gradient(135deg, #9E9E9E 0%, #BDBDBD 100%)',
+  'linear-gradient(135deg, #E65100 0%, #FF9800 100%)',
+  'linear-gradient(135deg, #BF360C 0%, #E8654A 100%)',
+  'linear-gradient(135deg, #1A2332 0%, #C62828 0%, #FFD54F 100%)',
+];
+
+// Extract first color from each month gradient for map markers
+const monthColors = [
+  '#E8654A', '#C05299', '#4CAF50', '#FF9800', '#9E9E9E', '#0D7377',
+  '#1565C0', '#6A1B9A', '#9E9E9E', '#E65100', '#BF360C', '#C62828',
+];
+
+// Geo coordinates for festival map markers
+const geoLookup: Record<string, { lat: number; lng: number; label: string }> = {
+  'bogota': { lat: 4.7110, lng: -74.0721, label: 'Bogotá' },
+  'cartagena': { lat: 10.3910, lng: -75.4794, label: 'Cartagena' },
+  'medellin': { lat: 6.2442, lng: -75.5812, label: 'Medellín' },
+  'cali': { lat: 3.4516, lng: -76.5320, label: 'Cali' },
+  'santa-marta': { lat: 11.2408, lng: -74.1990, label: 'Santa Marta' },
+  'barichara': { lat: 6.6430, lng: -73.2274, label: 'Barichara' },
+  'salento': { lat: 4.6387, lng: -75.5693, label: 'Salento' },
+  'villa-de-leyva': { lat: 5.6336, lng: -73.5267, label: 'Villa de Leyva' },
+};
+
+// Build map markers — group festivals by slug (one marker per location)
+const festBySlug = new Map<string, typeof festivals>();
+festivals.forEach(f => {
+  const arr = festBySlug.get(f.slug) || [];
+  arr.push(f);
+  festBySlug.set(f.slug, arr);
+});
+
+const festMapMarkers = Array.from(festBySlug.entries())
+  .map(([slug, fests]) => {
+    const geo = geoLookup[slug];
+    if (!geo) return null;
+    return {
+      lat: geo.lat,
+      lng: geo.lng,
+      label: geo.label,
+      slug,
+      color: monthColors[fests[0].monthIndex],
+      url: `/destinations/${slug}/`,
+      festivals: fests.map(f => ({
+        name: f.name,
+        month: f.month,
+        destination: f.destination,
+      })),
+    };
+  })
+  .filter(Boolean);
+
+// Video lookup for festival cards — prefer preview (smallest), then break-1, then hero
+const festCardVideos: Record<string, string> = {};
+['bogota','cartagena','medellin','cali','santa-marta','barichara','salento','villa-de-leyva']
+  .forEach(s => festCardVideos[s] = `/videos/destinations/${s}-preview.mp4`);
+
+// Fallback cycle for any slug not in lookup
+const fallbackVideos = Object.values(festCardVideos);
+
+// 10 generic festival clips — cycle 3x across events
+const festGenericClips = Array.from({ length: 10 }, (_, i) => `/videos/pillar/festival-card-${i + 1}.mp4`);
+
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="fest-hero">
+    <video class="fest-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/festivals-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="fest-hero-gradient"></div>
+    <div class="fest-hero-noise"></div>
+
+    <div class="fest-hero-content">
+      <h1 class="fest-hero-title">Colombian Festival Calendar 2026</h1>
+      <p class="fest-hero-subtitle">From Barranquilla Carnival (the world's second-largest) to Medellín's Feria de las Flores and Cali's 11-day salsa extravaganza — Colombia celebrates louder than almost anywhere on Earth.</p>
+      <div class="fest-hero-meta">
+        <div class="fest-hero-meta-item">
+          <span class="fest-hero-meta-label">Festivals</span>
+          <span class="fest-hero-meta-value">22</span>
+        </div>
+        <div class="fest-hero-meta-item">
+          <span class="fest-hero-meta-label">Destinations</span>
+          <span class="fest-hero-meta-value">8</span>
+        </div>
+        <div class="fest-hero-meta-item">
+          <span class="fest-hero-meta-label">Season</span>
+          <span class="fest-hero-meta-value">Year-Round</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="fest-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="fest-personal reveal">
+    <div class="container-content">
+      <blockquote class="fest-personal-quote">
+        <p>Colombia surprised us more than almost any country we've visited. We expected Cartagena's colonial beauty, but we didn't expect the sheer joy of Medellín during Feria de las Flores — a city transforming itself, covered in orchids, with silleteros carrying flower arrangements on their backs that took months to make. Cali's Feria is another level of salsa obsession entirely. Book early for both.</p>
+        <cite>— Scott &amp; Jenice</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- View Toggle -->
+  <div class="container-content" style="padding-top: var(--space-2); padding-bottom: var(--space-4);">
+    <div class="fest-view-toggle">
+      <button class="fest-toggle-btn active" id="festBtnCalendar">Calendar</button>
+      <button class="fest-toggle-btn" id="festBtnMap">Map</button>
+    </div>
+  </div>
+
+  <!-- Calendar Grid -->
+  <div id="festCalendarView">
+  <section class="fest-calendar reveal">
+    <div class="container-content">
+      <h2 class="fest-section-heading">Festivals by Month</h2>
+      <p class="fest-section-sub">Click any festival to explore its destination. Hover for a preview.</p>
+
+      <div class="fest-month-grid">
+        {months.map((monthName, i) => {
+          const monthFestivals = festivals.filter(f => f.monthIndex === i);
+          return (
+            <div class="fest-month-card reveal">
+              <div class="fest-month-header">
+                <span class="fest-month-name">{monthName}</span>
+                {monthFestivals.length > 0 && (
+                  <span class="fest-month-count">{monthFestivals.length}</span>
+                )}
+              </div>
+              <div class="fest-month-body">
+                {monthFestivals.length > 0 ? (
+                  monthFestivals.map((fest) => {
+                    const idx = festivals.indexOf(fest);
+                    const destVideo = festCardVideos[fest.slug] || fallbackVideos[idx % fallbackVideos.length];
+                    const festVideo = festGenericClips[idx % festGenericClips.length];
+                    return (
+                    <a href={`/destinations/${fest.slug}/`} class="fest-entry">
+                      <div class="fest-entry-media" style={`background: ${monthGradients[i]};`}>
+                        <video class="fest-card-video fest-vid-dest" muted loop playsinline preload="none" data-src={destVideo}></video>
+                        <video class="fest-card-video fest-vid-fest" muted loop playsinline preload="none" data-src={festVideo} style="opacity:0;"></video>
+                        <div class="fest-card-scrim"></div>
+                        <div class="fest-entry-media-label">{fest.month}</div>
+                      </div>
+                      <div class="fest-entry-info">
+                        <div class="fest-entry-name">{fest.name}</div>
+                        <div class="fest-entry-destination">{fest.destination}</div>
+                      </div>
+                      <div class="fest-entry-overlay">
+                        <p class="fest-entry-desc">{fest.description}</p>
+                        <span class="fest-entry-cta">Explore {fest.destination} &rarr;</span>
+                      </div>
+                    </a>
+                  );})
+                ) : (
+                  <div class="fest-month-empty">No major festivals</div>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  </div><!-- /festCalendarView -->
+
+  <!-- Map View (hidden by default) -->
+  <div id="festMapView" style="display:none;">
+    <section style="padding: var(--space-4) 0 var(--space-8);">
+      <div class="container-content">
+        <div class="fest-map-container" id="festMapContainer">
+          <div class="fest-map-tooltip" id="festMapTooltip">
+            <div class="fest-map-tooltip-name" id="festTooltipName"></div>
+            <div class="fest-map-tooltip-fests" id="festTooltipFests"></div>
+          </div>
+          <div id="festLeafletMap"></div>
+          <div class="fest-map-legend">
+            <div class="fest-map-legend-item"><div class="fest-map-legend-dot" style="background:var(--color-warm-coral);"></div>Festival location</div>
+            <div class="fest-map-legend-note">Colored by month &middot; Click to explore destination</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="fest-cta-section reveal">
+    <div class="container-content">
+      <div class="fest-cta-card">
+        <h2 class="fest-cta-heading">Plan Your Festival Trip</h2>
+        <p class="fest-cta-text">Let our AI travel planner build a custom itinerary around the Colombian festivals you want to see — with flights, hotels, and day-by-day schedules.</p>
+        <a href="/plan/" class="fest-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "When is Carnaval de Barranquilla?", answer: "Barranquilla Carnival takes place in the four days before Ash Wednesday — the same dates as Rio Carnival. In 2026, this falls February 14-17. The main events are Saturday (Batalla de Flores parade), Sunday (Gran Parada), Monday (Carnival of the Arts), and Tuesday (Gran Parada finale and symbolic burial of Joselito Carnaval, a puppet representing the spirit of Carnival who 'dies' as the party ends). Book accommodation 3-4 months in advance in Barranquilla — or stay in Cartagena and take the 1.5-hour bus." },
+    { question: "What makes Medellín's Feria de las Flores special?", answer: "The Desfile de Silleteros — the parade of flower carriers — is unlike any other event we've attended. Silleteros are farmers and artisans from the corregimientos (mountain villages) above Medellín who spend months constructing their silletas: wooden frame backpacks covered in thousands of individual flowers in elaborate artistic patterns. Some silletas contain 800+ flowers and weigh 80 kilos. The tradition dates to the 19th century when flower sellers carried their wares to market this way. The parade lasts several hours and brings half of Medellín into the streets. Arrive two days early to visit the Silleteros Exhibition in the Botanical Garden." },
+    { question: "What is the Feria de Cali?", answer: "The Feria de Cali is an 11-day festival from December 25 through January 5 in Cali, the self-proclaimed World Capital of Salsa. The centerpiece is the Salsódromo — a competitive parade of salsa schools through the city streets, judged on choreography, costume, and musical interpretation. But the entire city becomes a festival: outdoor concerts, street parties in the Juanchito district, bullfighting at the Cañaveralejo bullring, and non-stop salsa in the clubs and tabernas. Cali salsa (caleña style) is distinct from New York and Cuban salsa — faster, more footwork-focused, and danced in close partnership." },
+    { question: "Is Colombia safe for tourists attending festivals?", answer: "Colombia has transformed dramatically in safety over the past 15 years and major festivals are well-policed and generally safe. The main risks are pickpocketing in dense crowds and occasional drink spiking at bars (burundanga — scopolamine — is a real concern in Bogotá and Cartagena nightlife; never accept drinks from strangers). Use official transportation (Uber, InDriver, or licensed taxis), stay in the tourist districts of each city, and keep your phone in a front pocket. Medellín's Feria de las Flores and Cali's Feria are extremely safe for tourists. Barranquilla Carnival in the main parade route is well-secured." },
+    { question: "What is the Festival Iberoamericano de Teatro?", answer: "The Festival Iberoamericano de Teatro de Bogotá (FIT) is the world's largest theater festival by attendance — held in even-numbered years in April, it draws 5-8 million audience members over 17 days to free and ticketed performances across Bogotá. Theater companies from 40+ countries perform in parks, streets, theaters, and public squares throughout the city. The free outdoor performances in Parque Simón Bolívar draw hundreds of thousands of people. It is an extraordinary demonstration of Colombia's investment in culture and public art — and Bogotá's transformation from one of the world's most dangerous cities to one of Latin America's most culturally vibrant." },
+    { question: "How do I get to remote festivals from Bogotá?", answer: "Colombia's domestic flight network is excellent and affordable — VivaAir, Latam, and Avianca fly from Bogotá to Medellín, Cali, Cartagena, and Santa Marta in 45-60 minutes. For Barranquilla Carnival, fly or take the bus to Cartagena and travel to Barranquilla by bus (1.5 hours). For Villa de Leyva or Barichara, rent a car or take a luxury bus from Bogotá's Terminal de Transportes. The Flota Magdalena and Berlinas del Fonce companies run comfortable services to Boyacá and Santander. For the Coffee Region (Salento), fly to Armenia or Pereira (45 minutes from Bogotá) and take a local bus or chiva jeep to Salento." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Colombia Festival Trip Planner"
+      description="Month-by-month guide to Colombian festivals with travel logistics, accommodation tips, and everything you need to plan your trip."
+      bullets={[
+        'All 22 festivals with exact dates and locations',
+        'Barranquilla vs Rio Carnival — which to choose and why',
+        'Accommodation strategy for peak festival periods',
+        'Getting around Colombia between festival cities',
+      ]}
+      guideTag="pillar-festivals"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="fest-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="fest-crosslinks-heading">Explore More</h3>
+      <div class="fest-crosslinks-grid">
+        <a href="/cuisine/" class="fest-crosslink-card">
+          <span class="fest-crosslink-icon">&#127858;</span>
+          <span class="fest-crosslink-label">Colombian Cuisine</span>
+          <span class="fest-crosslink-desc">From arepas to bandeja paisa — eat your way across Colombia</span>
+        </a>
+        <a href="/destinations/" class="fest-crosslink-card">
+          <span class="fest-crosslink-icon">&#127965;</span>
+          <span class="fest-crosslink-label">All Destinations</span>
+          <span class="fest-crosslink-desc">Every city and region we've explored with honest reviews</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<!-- Festival card video lazy-load + dual-video cycling -->
+<script>
+  const festMediaEls = document.querySelectorAll('.fest-entry-media');
+  const festSwapTimers = new Map<Element, number>();
+
+  function festLoadAndPlay(video: HTMLVideoElement) {
+    if (!video.src && video.dataset.src) {
+      video.src = video.dataset.src;
+    }
+    video.play().catch(() => {});
+  }
+
+  function festStartCycle(media: Element) {
+    const dest = media.querySelector<HTMLVideoElement>('.fest-vid-dest');
+    const fest = media.querySelector<HTMLVideoElement>('.fest-vid-fest');
+    if (!dest || !fest) return;
+
+    festLoadAndPlay(dest);
+    festLoadAndPlay(fest);
+
+    // Start with dest visible, swap every 6 seconds
+    let showingDest = true;
+    const timer = window.setInterval(() => {
+      showingDest = !showingDest;
+      dest.style.opacity = showingDest ? '1' : '0';
+      fest.style.opacity = showingDest ? '0' : '1';
+    }, 6000);
+    festSwapTimers.set(media, timer);
+  }
+
+  function festStopCycle(media: Element) {
+    const timer = festSwapTimers.get(media);
+    if (timer) {
+      clearInterval(timer);
+      festSwapTimers.delete(media);
+    }
+    media.querySelectorAll<HTMLVideoElement>('.fest-card-video').forEach(v => v.pause());
+  }
+
+  const festObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          festStartCycle(entry.target);
+        } else {
+          festStopCycle(entry.target);
+        }
+      });
+    },
+    { threshold: 0.2, rootMargin: '100px' }
+  );
+  festMediaEls.forEach((el) => festObserver.observe(el));
+</script>
+
+<!-- View Toggle Logic -->
+<script>
+  const festBtnCalendar = document.getElementById('festBtnCalendar');
+  const festBtnMap = document.getElementById('festBtnMap');
+  const festCalendarView = document.getElementById('festCalendarView');
+  const festMapView = document.getElementById('festMapView');
+
+  function festShowCalendar() {
+    festCalendarView!.style.display = '';
+    festMapView!.style.display = 'none';
+    festBtnCalendar!.classList.add('active');
+    festBtnMap!.classList.remove('active');
+  }
+
+  function festShowMap() {
+    festCalendarView!.style.display = 'none';
+    festMapView!.style.display = '';
+    festBtnCalendar!.classList.remove('active');
+    festBtnMap!.classList.add('active');
+    if (window.festMap) {
+      window.festMap.invalidateSize();
+    }
+  }
+
+  festBtnCalendar?.addEventListener('click', festShowCalendar);
+  festBtnMap?.addEventListener('click', festShowMap);
+</script>
+
+<!-- Leaflet Map for Festivals -->
+<script is:inline define:vars={{ markers: festMapMarkers }}>
+  // Load Leaflet CSS
+  if (!document.getElementById('leaflet-css')) {
+    var lnk = document.createElement('link');
+    lnk.id = 'leaflet-css';
+    lnk.rel = 'stylesheet';
+    lnk.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css';
+    document.head.appendChild(lnk);
+  }
+
+  function initFestMap() {
+    var mapEl = document.getElementById('festLeafletMap');
+    if (!mapEl || typeof L === 'undefined') return;
+
+    var map = L.map(mapEl, {
+      center: [4.5709, -74.2973],
+      zoom: 5,
+      scrollWheelZoom: false,
+      minZoom: 4,
+      maxZoom: 12,
+      zoomControl: false,
+      attributionControl: false,
+    });
+
+    window.festMap = map;
+
+    L.control.attribution({ prefix: false }).addTo(map);
+    L.control.zoom({ position: 'topright' }).addTo(map);
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '\u00a9 <a href="https://www.openstreetmap.org/copyright">OSM</a> \u00a9 <a href="https://carto.com/">CARTO</a>',
+      maxZoom: 19,
+    }).addTo(map);
+
+    function makeCircle(color, size, stroke) {
+      return L.divIcon({
+        className: '',
+        html: '<div style="width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:' + color + ';border:2px solid ' + stroke + ';box-shadow:0 0 6px rgba(0,0,0,0.3);cursor:pointer;"></div>',
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
+      });
+    }
+
+    var tooltip = document.getElementById('festMapTooltip');
+    var tooltipName = document.getElementById('festTooltipName');
+    var tooltipFests = document.getElementById('festTooltipFests');
+    var container = document.getElementById('festMapContainer');
+
+    markers.forEach(function(m) {
+      var size = m.festivals.length > 1 ? 18 : 14;
+      var icon = makeCircle(m.color, size, '#ffffff');
+      var marker = L.marker([m.lat, m.lng], { icon: icon, title: m.label }).addTo(map);
+
+      marker.on('mouseover', function(e) {
+        if (tooltipName) tooltipName.textContent = m.label;
+        if (tooltipFests) {
+          tooltipFests.innerHTML = m.festivals.map(function(f) {
+            return '<div class="fest-map-tooltip-fest"><span class="fest-map-tooltip-month">' + f.month + '</span> ' + f.name + '</div>';
+          }).join('');
+        }
+        if (tooltip) tooltip.classList.add('fest-tooltip-visible');
+        if (container && tooltip) {
+          var pt = e.containerPoint;
+          tooltip.style.left = (pt.x + 12) + 'px';
+          tooltip.style.top = (pt.y - 10) + 'px';
+        }
+      });
+
+      marker.on('mouseout', function() {
+        if (tooltip) tooltip.classList.remove('fest-tooltip-visible');
+      });
+
+      marker.on('click', function() {
+        window.location.href = m.url;
+      });
+    });
+  }
+
+  // Load Leaflet JS
+  if (typeof L !== 'undefined') {
+    initFestMap();
+  } else {
+    var lscript = document.createElement('script');
+    lscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';
+    lscript.onload = initFestMap;
+    document.head.appendChild(lscript);
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Festival gradient (warm coral → gold → deep night)
+     ================================================================ */
+  .fest-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .fest-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .fest-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .fest-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .fest-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .fest-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .fest-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .fest-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .fest-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .fest-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .fest-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .fest-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: festBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes festBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     CALENDAR GRID
+     ================================================================ */
+  .fest-calendar {
+    padding: var(--space-10) 0 var(--space-8);
+  }
+
+  .fest-section-heading {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0 0 var(--space-2);
+    text-align: center;
+  }
+
+  .fest-section-sub {
+    font-size: 1rem;
+    color: var(--color-slate);
+    text-align: center;
+    margin: 0 0 var(--space-8);
+  }
+
+  .fest-month-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-5);
+  }
+
+  @media (max-width: 1024px) {
+    .fest-month-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .fest-month-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* ================================================================
+     MONTH CARD
+     ================================================================ */
+  .fest-month-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .fest-month-card:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  }
+
+  .fest-month-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-3) var(--space-4);
+    background: var(--color-sky);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  }
+
+  .fest-month-name {
+    font-size: 0.9rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .fest-month-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-warm-coral);
+    background: rgba(232, 101, 74, 0.1);
+    padding: 2px 8px;
+    border-radius: 12px;
+  }
+
+  .fest-month-body {
+    padding: var(--space-3);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    min-height: 80px;
+  }
+
+  .fest-month-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-size: 0.85rem;
+    color: var(--color-slate);
+    opacity: 0.5;
+    font-style: italic;
+  }
+
+  /* ================================================================
+     FESTIVAL ENTRY (within month card)
+     ================================================================ */
+  .fest-entry {
+    position: relative;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .fest-entry:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  }
+
+  .fest-entry-media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: var(--space-2);
+    overflow: hidden;
+  }
+
+  .fest-card-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  .fest-card-scrim {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.45) 100%);
+  }
+
+  .fest-entry-media-label {
+    position: relative;
+    z-index: 2;
+    font-size: 0.6rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 2px 8px;
+    border-radius: 6px;
+  }
+
+  .fest-entry-info {
+    padding: var(--space-2) var(--space-3) var(--space-3);
+    background: var(--color-white);
+  }
+
+  .fest-entry-name {
+    font-size: 0.85rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin-bottom: 2px;
+    line-height: 1.3;
+  }
+
+  .fest-entry-destination {
+    font-size: 0.72rem;
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-medium);
+  }
+
+  /* Hover overlay */
+  .fest-entry-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(26, 35, 50, 0.93);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--space-4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .fest-entry:hover .fest-entry-overlay {
+    opacity: 1;
+  }
+
+  .fest-entry-desc {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.55;
+    margin: 0 0 var(--space-3);
+  }
+
+  .fest-entry-cta {
+    font-size: 0.72rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-warm-coral);
+    letter-spacing: 0.02em;
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .fest-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .fest-cta-card {
+    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .fest-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .fest-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .fest-cta-button {
+    display: inline-block;
+    background: var(--color-warm-coral);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .fest-cta-button:hover {
+    background: #d4553b;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .fest-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .fest-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .fest-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .fest-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .fest-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .fest-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .fest-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .fest-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+  }
+
+  .fest-crosslink-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     RESPONSIVE — Hero adjustments
+     ================================================================ */
+  @media (max-width: 640px) {
+    .fest-hero {
+      min-height: 55vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .fest-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .fest-scroll-hint {
+      display: none;
+    }
+  }
+
+  /* ================================================================
+     VIEW TOGGLE
+     ================================================================ */
+  .fest-view-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    background: var(--color-sand-dark);
+    border-radius: 40px;
+    padding: 4px;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  .fest-toggle-btn {
+    flex: 1;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 36px;
+    font-size: 0.82rem;
+    font-weight: var(--weight-semibold);
+    cursor: pointer;
+    background: transparent;
+    color: var(--color-slate);
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  .fest-toggle-btn.active {
+    background: var(--color-ocean-teal);
+    color: #fff;
+  }
+
+  .fest-toggle-btn:hover:not(.active) {
+    color: var(--color-deep-night);
+  }
+
+  /* ================================================================
+     MAP VIEW
+     ================================================================ */
+  .fest-map-container {
+    border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(ellipse at 40% 30%, #0c3547 0%, #091e2f 40%, #060f1a 100%);
+    padding: 28px 20px 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .fest-map-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 600px 300px at 30% 70%, rgba(13, 115, 119, 0.08) 0%, transparent 70%),
+      radial-gradient(ellipse 400px 200px at 70% 20%, rgba(13, 115, 119, 0.06) 0%, transparent 70%);
+    animation: festOceanShimmer 8s ease-in-out infinite alternate;
+    pointer-events: none;
+  }
+
+  .fest-map-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(circle 1px at 20% 30%, rgba(255, 255, 255, 0.03) 0%, transparent 100%),
+      radial-gradient(circle 1px at 60% 50%, rgba(255, 255, 255, 0.02) 0%, transparent 100%),
+      radial-gradient(circle 1px at 40% 80%, rgba(255, 255, 255, 0.02) 0%, transparent 100%);
+    pointer-events: none;
+  }
+
+  @keyframes festOceanShimmer {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+
+  #festLeafletMap {
+    width: 100%;
+    height: 600px;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .fest-map-tooltip {
+    position: absolute;
+    background: rgba(26, 35, 50, 0.95);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px 14px;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 50;
+    min-width: 180px;
+    max-width: 300px;
+  }
+
+  .fest-map-tooltip.fest-tooltip-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .fest-map-tooltip-name {
+    font-size: 0.85rem;
+    font-weight: var(--weight-bold);
+    color: white;
+    margin-bottom: 4px;
+  }
+
+  :global(.fest-map-tooltip-fest) {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.5;
+  }
+
+  :global(.fest-map-tooltip-month) {
+    font-size: 0.6rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-warm-coral);
+    margin-right: 4px;
+  }
+
+  .fest-map-legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-3) var(--space-4);
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+  }
+
+  .fest-map-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .fest-map-legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(13, 115, 119, 0.5);
+  }
+
+  .fest-map-legend-note {
+    font-size: 0.68rem;
+    color: rgba(255, 255, 255, 0.35);
+  }
+
+  @media (max-width: 640px) {
+    #festLeafletMap { height: 450px; }
+  }
+
+  /* Personal intro */
+  .fest-personal {
+    padding-block: var(--space-8);
+  }
+
+  .fest-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid #D97706;
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .fest-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .fest-personal-quote cite {
+    font-size: var(--text-caption);
+    color: #D97706;
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+</style>
