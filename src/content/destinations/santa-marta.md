@@ -2,6 +2,14 @@
 title: "Santa Marta"
 description: "Explore Santa Marta — South America's oldest city, gateway to Tayrona National Park, the Lost City trek, and the snow-capped Sierra Nevada mountains."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Taganga fishing bay and Sierra Nevada mountains framing Santa Marta, Colombia"
 tagline: "Colombia's Caribbean gateway — Lost City treks, Tayrona National Park, and the country's most beautiful coastline"
 region: "caribbean"
@@ -131,7 +139,7 @@ Coastal Colombian food is simpler and more seafood-focused than the interior. Fr
 
 ## Practical Information
 
-### Getting Around
+### What's the Best Way to Get Around Santa Marta?
 
 Within Santa Marta, walking covers most of the centro histórico. For Taganga, Minca, and Tayrona, colectivo minibuses are cheap and frequent. Motorbike taxis are the fastest way to get around but come with obvious safety considerations — wear the helmet provided. Uber operates in the area but is less reliable than in Bogotá or Medellín.
 
@@ -139,11 +147,11 @@ Within Santa Marta, walking covers most of the centro histórico. For Taganga, M
 
 December through March is the driest period and the best time to visit. July and August are also relatively dry. The shoulder months of April, May, September, and October bring rain, which can make the Lost City trek muddier and river crossings deeper — but the jungle is at its most lush. Check Tayrona's closure schedule before planning your trip.
 
-### Budget
+### How Much Does It Cost to Visit Santa Marta?
 
 Santa Marta is significantly cheaper than Cartagena. A dorm bed costs COP 35,000-50,000 (~$9-12 USD), a private room COP 80,000-150,000 (~$20-37 USD). Street food and local restaurants keep meal costs between COP 10,000-25,000 (~$2.50-6 USD). The biggest expenses are park entry fees and the Lost City trek.
 
-### Safety
+### Is Santa Marta Safe for Tourists?
 
 The centro histórico is generally safe during the day. Exercise caution at night, especially on the beach and in less-trafficked streets. Taganga has had occasional safety issues — do not walk the road between Santa Marta and Taganga on foot, and avoid the beach at Taganga after dark. Inside Tayrona Park, the main trails are safe, but do not venture off marked paths. The Lost City trek is well-managed by licensed operators and guides, and the trail itself is secure.
 

@@ -2,6 +2,14 @@
 title: "Providencia"
 description: "Discover Providencia — Colombia's pristine Caribbean island paradise with the UNESCO-listed Old Providence McBean Lagoon, Crab Cay snorkeling, and authentic Raizal culture."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Fresh-water diving coral reef and Crab Cay turquoise water, Providencia, Colombia"
 tagline: "Fewer than 5,000 people, no cars allowed, zero tourist infrastructure — and waters so clear the reef glows in 30-metre visibility"
 region: "caribbean"
@@ -180,7 +188,7 @@ Coconut is woven through the island's cuisine. Coconut rice, coconut bread, coco
 
 Land crabs are a traditional Raizal food, typically prepared in a spiced coconut sauce. When in season, crab back (stuffed crab shell) is a delicacy worth seeking out.
 
-## Where to Stay
+## Where Should I Stay in Providencia?
 
 ### Budget (COP 100,000-180,000 / ~$24-42 USD per night)
 

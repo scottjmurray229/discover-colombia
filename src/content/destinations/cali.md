@@ -2,6 +2,14 @@
 title: "Cali"
 description: "Discover Cali — the undisputed world capital of salsa, with electric nightlife, Afro-Colombian culture, Cristo Rey views, and the soul of Colombia's Pacific region."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Salsa dancers in a Juanchito club and San Antonio church hill, Cali, Colombia"
 tagline: "Where salsa is religion, the Caribbean chicken is transcendent, and Afro-Colombian culture runs in the streets"
 region: "pacific"
@@ -121,13 +129,13 @@ Cali's food is hearty, generous, and deeply rooted in the agricultural abundance
 
 **Lulada** — a refreshing drink made from lulo fruit (a uniquely Colombian citrus), ice, sugar, and lime. It is tart, sweet, and the most refreshing thing you can drink on a hot Cali afternoon. **Champús** is another local specialty — a thick, cold drink made with corn, lulo, pineapple, and cinnamon that sounds strange and tastes wonderful.
 
-### Where to Eat
+### What Should I Eat in Cali?
 
 The Alameda neighbourhood has several traditional restaurants serving Vallecaucano cuisine at local prices. **Ringlete** is a favourite for sancocho and fried pork. The food courts of the Plaza de Cayzedo area offer cheap almuerzos corrientes. For an upscale take on local food, **Helena Adentro** in the Granada neighbourhood has earned recognition for its thoughtful treatment of regional ingredients.
 
 ## Practical Information
 
-### Getting Around
+### What's the Best Way to Get Around Cali?
 
 Cali's MIO bus rapid transit system covers the main corridors but is not as comprehensive as Bogotá's TransMilenio. Rides cost COP 2,400 (~$0.60 USD). Uber and DiDi are widely used and affordable — most city rides cost COP 8,000-20,000 (~$2-5 USD). Taxis are plentiful; ensure the metre is running or agree on a price beforehand. Walking is pleasant in San Antonio, Granada, and El Peñón, but the heat during midday can be intense.
 
@@ -135,7 +143,7 @@ Cali's MIO bus rapid transit system covers the main corridors but is not as comp
 
 Cali is warm year-round, with temperatures typically between 19 and 30 degrees Celsius. The elevation of 1,000 metres keeps it from reaching the oppressive humidity of the Caribbean coast. Two dry seasons — December through February and July through August — offer the most pleasant weather. The rainy seasons bring afternoon downpours that are intense but usually brief.
 
-### Safety
+### Is Cali Safe for Tourists?
 
 I will be straightforward: Cali requires more situational awareness than Medellín or Bogotá. The city has challenges with street crime, particularly phone theft and petty robbery. Stay in known tourist-friendly neighbourhoods: San Antonio, Granada, El Peñón, and the Zona Rosa around Parque del Perro. Use ride-hailing apps at night — do not walk long distances after dark in unfamiliar areas. Inside salsa clubs and restaurants, you are generally fine. Keep valuables at your hotel, carry only the cash you need, and your phone discreet on the street.
 

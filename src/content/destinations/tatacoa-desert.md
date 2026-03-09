@@ -2,6 +2,14 @@
 title: "Tatacoa Desert"
 description: "Discover the Tatacoa Desert — Colombia's otherworldly landscape of red and grey badlands, world-class stargazing, and surreal terrain in the heart of Huila department."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Red ochre ravines and cactus forest of the Tatacoa Desert, Colombia"
 tagline: "Mars-red canyons, cactus forests, and the clearest dark skies in Colombia — a desert that defies expectations"
 region: "andean"
@@ -153,7 +161,7 @@ The town offers slightly more variety. A few restaurants on the main street serv
 
 This is the most important dietary consideration in Tatacoa. The heat is extreme and the exertion of hiking through sand and clay under direct sun drains your body of water rapidly. Carry at least two liters of water per person when exploring the formations, and drink consistently throughout the day even when you do not feel thirsty. Dehydration sneaks up on you in this environment.
 
-## Where to Stay
+## Where Should I Stay in Tatacoa Desert?
 
 Accommodation in Tatacoa ranges from bare-bones camping to a handful of more comfortable options.
 
@@ -173,7 +181,7 @@ A handful of newer properties aim for a more upscale desert experience with pool
 
 I want to be honest about expectations. Tatacoa is a remote, hot, arid landscape with limited infrastructure. Even the "luxury" options are modest by city standards. Air conditioning may be a single wall unit that struggles against the heat. Hot water may come from a solar heater that runs out. This is part of the character of the place. Embrace it, and focus on what you are here for: the landscape and the sky.
 
-## Best Time to Visit
+## When Is the Best Time to Visit Tatacoa Desert?
 
 ### Dry Season (Jun-Sep, Dec-Jan)
 

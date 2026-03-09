@@ -2,6 +2,14 @@
 title: "Salento"
 description: "Discover Salento — the gateway to Colombia's Coffee Region with the towering wax palms of Cocora Valley, vibrant coffee farm tours, and colorful Paisa architecture."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Valle de Cocora towering wax palm trees and cloud-forested ridgeline, Salento, Colombia"
 tagline: "Painted Jeeps, wax palm valleys, tin-roofed coffee farms, and Colombia's most photogenic highland town"
 region: "andean"
@@ -165,7 +173,7 @@ This is the Coffee Region, and the coffee here is exceptional. Several cafes on 
 
 As elsewhere in Colombia, the almuerzo corriente is the best value meal. For COP 12,000-15,000 (~$3-4 USD), you get soup, a main course (usually trout, chicken, or beef with rice, beans, plantain, and salad), a drink, and sometimes a small dessert. Look for the handwritten "almuerzo" signs in windows off the main tourist drag.
 
-## Where to Stay
+## Where Should I Stay in Salento?
 
 ### Budget (Under COP 60,000 / ~$14 USD per night)
 

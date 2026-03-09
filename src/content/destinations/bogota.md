@@ -2,6 +2,14 @@
 title: "Bogotá"
 description: "Explore Bogotá — Colombia's high-altitude capital with world-class museums, vibrant street art, Andean cuisine, and the iconic Monserrate viewpoint."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Monserrate hilltop church overlooking the sprawling Bogotá skyline, Colombia"
 tagline: "A city of 2,600 metres, two million books at the world's biggest free library, and the Andes looming over everything"
 region: "andean"
@@ -133,7 +141,7 @@ The restaurants here are excellent too. Criterion is one of the city's most cele
 
 ## Practical Information
 
-### Getting Around
+### What's the Best Way to Get Around Bogotá?
 
 Bogotá's TransMilenio bus rapid transit system covers the city extensively and costs COP 2,950 (~$0.75 USD) per ride. It gets brutally crowded during rush hours, but outside of peak times, it is efficient and covers most areas a tourist would want to visit. Uber and DiDi operate widely and are generally affordable — a ride across the city rarely exceeds COP 25,000 (~$6 USD). Registered taxis are fine but always confirm the metre is running or agree on a price before getting in.
 
@@ -147,7 +155,7 @@ I cannot overstate this: the altitude is real. At 2,640 metres, you are higher t
 
 Bogotá's weather is famously unpredictable. Locals say you can experience all four seasons in a single day, and they are not exaggerating. Mornings are often cool and clear, afternoons bring rain more often than not, and evenings can be genuinely cold. Pack layers. A waterproof jacket is essential. An umbrella saved me repeatedly. Leave the shorts at home — you will not need them here, and wearing them marks you instantly as a tourist.
 
-### Safety
+### Is Bogotá Safe for Tourists?
 
 Bogotá has come a long way, but it is still a city that rewards awareness. Keep your phone in your pocket on the street. Do not wear flashy jewellery. Use ride-hailing apps instead of hailing taxis on the street, especially at night. La Candelaria is fine during the day but some of its edges get sketchy after dark — stick to well-lit, populated streets. Chapinero, Zona T, Zona G, and Usaquén are generally safe at all hours.
 

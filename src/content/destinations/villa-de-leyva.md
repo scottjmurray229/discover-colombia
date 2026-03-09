@@ -2,6 +2,14 @@
 title: "Villa de Leyva"
 description: "Explore Villa de Leyva — a perfectly preserved colonial town with Colombia's largest plaza, fossil sites, desert landscapes, and artisan culture in Boyaca."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Cobblestone Plaza Mayor and colonial white-walled houses of Villa de Leyva, Colombia"
 tagline: "Fossils in the cobblestones, one of South America's biggest plazas, and the best-preserved colonial town in the Andes"
 region: "andean"
@@ -133,7 +141,7 @@ The food in Villa de Leyva leans heavily on Boyacense traditions, which means he
 
 **Mazamorra** is a thick corn-based beverage served warm, sometimes sweetened with panela (unrefined cane sugar). It is available from street vendors and in local restaurants.
 
-### Where to Eat
+### What Should I Eat in Villa de Leyva?
 
 The restaurants surrounding the plaza range from tourist-oriented spots with inflated prices to genuinely good local places. My approach is to walk one or two blocks away from the plaza to find better value.
 
@@ -141,7 +149,7 @@ For a midday meal, I recommend the set lunch (almuerzo corriente) available at s
 
 For a nicer dinner, the restaurants along Carrera 9 and Calle 13 offer more refined takes on Colombian cuisine at prices that remain very reasonable by international standards. Expect to pay COP 35,000-60,000 (~$8-14 USD) for a main course with a drink at these establishments.
 
-## Where to Stay
+## Where Should I Stay in Villa de Leyva?
 
 Villa de Leyva has accommodation for every budget, from basic hostels to beautifully restored colonial boutique hotels. The town's historic architecture means that many hotels occupy genuine colonial buildings, with thick adobe walls, interior courtyards, and wooden balconies.
 

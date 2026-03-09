@@ -2,6 +2,14 @@
 title: "Barichara"
 description: "Visit Barichara — Colombia's prettiest colonial town with stone-paved streets, the historic Camino Real hike to Guane, and thriving artisan workshops in Santander."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Stone-paved streets and whitewashed colonial houses of Barichara, Santander, Colombia"
 tagline: "Stone streets, terracotta rooftops, bougainvillea, and the most impossibly perfect small town in Colombia"
 region: "andean"
@@ -77,7 +85,7 @@ The most common route is an overnight bus from Bogota to San Gil (6-7 hours, COP
 
 If you are flying into the region, Bucaramanga's Palonegro Airport (BGA) is the nearest. From the airport, take a taxi or bus to Bucaramanga's terminal, then a bus to San Gil (2.5-3 hours, COP 25,000-30,000 / ~$6-7 USD), and connect to Barichara.
 
-### Getting Around
+### What's the Best Way to Get Around Barichara?
 
 Barichara is tiny and perfectly walkable. Everything — the plaza, the churches, the mirador, the workshops, the restaurants — is within a ten-minute stroll. For the Camino Real hike to Guane, you walk out of town on foot. For trips to San Gil, colectivos run from the main road on the edge of town.
 
@@ -153,11 +161,11 @@ Roasted goat (cabrito) is the signature main dish of Santander. It is slow-cooke
 
 A thick soup made with grains, beans, pork, and tripe. It is the kind of dish that fuels farmers through long days of labor, and on a cooler evening in Barichara, it is deeply satisfying. Available at local restaurants for around COP 12,000-18,000 (~$3-4 USD).
 
-### Where to Eat
+### What Should I Eat in Barichara?
 
 The restaurants around the plaza are generally good and reasonably priced. For the set lunch (almuerzo), look for the smaller, family-run places on the side streets — COP 10,000-15,000 (~$2.35-3.50 USD) for a complete meal. Color de Hormiga serves creative takes on local cuisine, and Restaurante Las Cruces does excellent cabrito.
 
-## Where to Stay
+## Where Should I Stay in Barichara?
 
 ### Budget (Under COP 70,000 / ~$16 USD per night)
 

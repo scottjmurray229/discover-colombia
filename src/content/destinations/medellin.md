@@ -2,6 +2,14 @@
 title: "Medellín"
 description: "Discover Medellín — Colombia's City of Eternal Spring with innovative urban culture, Comuna 13's street art, metro cable views, and nearby coffee farms."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Metrocable gondolas ascending the hillside comunas above Medellín, Colombia"
 tagline: "The world's greatest urban comeback — cable cars, transformed comunas, Colombia's best food scene, and eternal spring weather"
 region: "andean"
@@ -127,7 +135,7 @@ Medellín's proximity to the Eje Cafetero — the coffee axis — means that wor
 
 The town of Jardín, about three hours southwest, is the most popular day trip destination. It is a beautifully preserved pueblo with a colourful main plaza and a basilica that dominates the skyline. Several farms nearby offer tours. Alternatively, closer options exist near Santa Elena and the hills east of the city. Most hostels and tour operators in Medellín can arrange these trips.
 
-## Food and Drink
+## What Should I Eat and Drink in Medellín?
 
 ### Bandeja Paisa: The National Dish
 
@@ -139,7 +147,7 @@ Colombians drink *tinto* — a small, strong, sweet black coffee — throughout 
 
 ## Practical Information
 
-### Getting Around
+### What's the Best Way to Get Around Medellín?
 
 The Metro and Metrocable are clean, efficient, and incredibly affordable at COP 2,950 per ride. Buses are even cheaper but harder to navigate without local knowledge. Uber and DiDi work throughout the city — a ride from El Poblado to Laureles costs around COP 12,000 (~$3 USD). Walking is pleasant in El Poblado, Laureles, and Envigado, where the terrain is relatively flat. The city centre is walkable but demands more alertness.
 
@@ -147,7 +155,7 @@ The Metro and Metrocable are clean, efficient, and incredibly affordable at COP 
 
 The eternal spring reputation is well deserved. Days are warm, evenings are cool, and the temperature barely varies throughout the year. However, Medellín has two rainy seasons — roughly March through May and September through November — when afternoon downpours are almost daily. They pass quickly, but carry a compact umbrella. December through February and July through August are the driest months and the most pleasant for exploring.
 
-### Safety
+### Is Medellín Safe for Tourists?
 
 Medellín has improved enormously but it is not a city where you can let your guard down entirely. In tourist areas — El Poblado, Laureles, the metro system — you are generally fine. Avoid walking alone at night outside of busy, well-lit streets. Do not accept drinks from strangers — scopolamine drugging, while rare, does happen. Use ride-hailing apps rather than street taxis after dark. Keep your phone discreet on the street. And be wary of anyone who approaches you with an overly friendly or persistent manner — politely decline and move on.
 

@@ -2,6 +2,14 @@
 title: "Leticia"
 description: "Explore Leticia — Colombia's Amazon gateway at the three-country border with Brazil and Peru, featuring jungle lodges, pink river dolphins, and indigenous communities."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Amazon river dolphin and jungle canopy along the Leticia waterfront, Colombia"
 tagline: "The triple border where Colombia, Peru, and Brazil meet — pink river dolphins, piranha fishing, and the Amazon's beating heart"
 region: "amazon-orinoco"
@@ -167,7 +175,7 @@ Walk across to Tabatinga for Brazilian options. The padarias (bakeries) serve ex
 
 If you catch your own, your lodge guide will prepare them. If not, several Leticia restaurants serve piranha soup — surprisingly delicate and flavorful.
 
-## Where to Stay
+## Where Should I Stay in Leticia?
 
 ### In Leticia (Between Jungle Excursions)
 

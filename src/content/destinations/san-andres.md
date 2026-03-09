@@ -2,6 +2,14 @@
 title: "San Andrés"
 description: "Explore San Andrés Island — Colombia's Caribbean paradise known as the Sea of Seven Colors, with world-class snorkelling, reggae culture, and island vibes."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Crystal-clear Sea of Seven Colors turquoise reef at San Andrés island, Colombia"
 tagline: "Seven shades of Caribbean — Colombia's tropical island escape with the clearest water in the country"
 region: "caribbean"
@@ -115,7 +123,7 @@ West View, La Piscinita, the Aquarium, and the reef around Johnny Cay are all ac
 
 For certified divers, San Andrés offers wall dives, caverns, and wreck dives. The most famous site is the **Blue Wall**, where the shallow platform drops off abruptly into deep blue water — the contrast is dramatic. **La Pirámide** is a submerged rock formation covered in soft coral. Several dive shops in town offer two-tank dives for COP 300,000-400,000 (~$75-100 USD). PADI certification courses are available and more affordable than most Caribbean destinations.
 
-## Food and Drink
+## What Should I Eat and Drink in San Andrés?
 
 The food on San Andrés blends Colombian Caribbean and English Caribbean traditions. Beyond the ubiquitous fried fish and coconut rice, look for these island specialities:
 
@@ -133,7 +141,7 @@ The food on San Andrés blends Colombian Caribbean and English Caribbean traditi
 
 You cannot avoid it. Every visitor must purchase the *tarjeta de turismo* at the airport upon arrival. As of my last visit, the cost is COP 130,000 (~$32 USD). Have cash or a card ready — the line can be long if a flight has just landed. The card is checked at hotel check-in and occasionally at attractions.
 
-### Getting Around
+### What's the Best Way to Get Around San Andrés?
 
 The town centre is walkable. For the island circuit and reaching spots like West View and San Luis, rent a golf cart (COP 150,000 / ~$37 USD per day), scooter (COP 80,000 / ~$20 USD), or bicycle (COP 30,000 / ~$7 USD). Taxis exist but are not metered — agree on a price before getting in. Colectivo buses run a rough circuit of the island for COP 2,500 (~$0.60 USD) but schedules are informal.
 
@@ -145,7 +153,7 @@ San Andrés is more expensive than mainland Colombia due to its island logistics
 
 The driest and calmest months are January through April and November. The rainy season peaks from September to November, though storms are usually brief. Hurricane season (June-November) rarely hits San Andrés directly, but weather patterns can bring rough seas and overcast days. For the clearest water and best snorkelling visibility, visit during the dry months.
 
-### Safety
+### Is San Andrés Safe for Tourists?
 
 San Andrés is generally safe. The main tourist areas are well-patrolled. Exercise standard caution with valuables on the beach and in crowded areas. The biggest hazard for most visitors is sunburn — the Caribbean sun is fierce, and the island breeze makes it deceptively comfortable. Apply reef-safe sunscreen generously and often.
 

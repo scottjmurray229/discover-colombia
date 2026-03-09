@@ -2,6 +2,14 @@
 title: "Cartagena"
 description: "Discover Cartagena de Indias — Colombia's jewel of colonial architecture, Caribbean flavours, walled old town charm, and island escapes to the Rosario Islands."
 heroImage: ""
+aeoFacts:
+  currency: "COP (Colombian Peso)"
+  plugType: "A/B, 110V"
+  language: "Spanish"
+  bestTime: "December–February, June–August"
+  visaInfo: "90-day visa-free for most nationalities"
+  timeZone: "UTC-5 (Colombia Time)"
+  emergencyNumber: "123 (police), 125 (fire)"
 heroAlt: "Colorful bougainvillea-draped colonial walls of Cartagena's walled city, Colombia"
 tagline: "Bougainvillea balconies, walled old city magic, Getsemaní street art, and the most beautiful colonial city in the Americas"
 region: "caribbean"
@@ -141,7 +149,7 @@ Cartagena has a serious restaurant scene. Celele, run by chef Jaime Rodríguez, 
 
 I will not pretend: Cartagena's heat is serious. Temperatures sit between 28 and 33 degrees Celsius, and the humidity makes it feel hotter. My strategy: explore from 7 to 11 AM, retreat to a pool or air-conditioned restaurant from 11 AM to 3 PM, then head back out for the golden hour and evening. Carry water constantly. Wear light, breathable clothing. A hat and sunscreen are non-negotiable. The evening hours, roughly 5 PM onward, are when the city is at its most magical — the light softens, the heat eases slightly, and the streets fill with music and people.
 
-### Getting Around
+### What's the Best Way to Get Around Cartagena?
 
 The walled city and Getsemaní are entirely walkable. For trips to Castillo San Felipe, Bocagrande, or the Bazurto market, Uber and DiDi are widely available and cheap — most rides within the city cost COP 8,000-15,000 (~$2-4 USD). Licensed taxis are fine if you confirm the price or ensure the metre is running. For the Rosario Islands and Playa Blanca, boats depart from the Muelle de los Pegasos or the Muelle de la Bodeguita.
 
@@ -149,7 +157,7 @@ The walled city and Getsemaní are entirely walkable. For trips to Castillo San 
 
 Cartagena is the most expensive city in Colombia for travellers. Restaurant prices in the walled city are roughly double what you would pay in Bogotá or Medellín for equivalent quality. The *sobretasa turística* — a tourism surcharge — is applied to hotel stays. Budget travellers should eat outside the walls in Getsemaní or the local neighbourhoods, where a full lunch still costs COP 15,000-20,000 (~$4-5 USD).
 
-### Safety
+### Is Cartagena Safe for Tourists?
 
 The walled city and Getsemaní are generally safe during the day and evening. Be alert to pickpockets in crowded areas, especially around the Clock Tower and on the walls at sunset. Do not walk on empty streets late at night. The beach areas attract persistent vendors — a firm but polite *no, gracias* is usually sufficient. Outside the tourist zone, exercise normal city caution.
 
