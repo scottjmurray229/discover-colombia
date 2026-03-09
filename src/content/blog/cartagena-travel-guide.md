@@ -2,6 +2,7 @@
 title: "Cartagena Travel Guide: Everything You Need for the Perfect Trip"
 description: "Complete Cartagena travel guide — the walled city, Getsemaní, Rosario Islands, food, accommodation, safety, and when to visit Colombia's most beautiful colonial city."
 pubDate: 2026-02-05
+dateModified: 2026-03-08
 heroImage: ""
 author: "Scott"
 tags: ["colombia", "cartagena", "caribbean", "colonial"]

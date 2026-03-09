@@ -2,6 +2,7 @@
 title: "Is Colombia Safe in 2026? A Realistic Assessment"
 description: "An honest, up-to-date safety assessment for Colombia in 2026 — what the risks actually are by region, what travelers need to know, and why millions visit without incident."
 pubDate: 2026-03-01
+dateModified: 2026-03-08
 heroImage: ""
 author: "Scott"
 tags: ["colombia", "safety", "practical", "bogota", "medellin", "cartagena"]

@@ -2,6 +2,7 @@
 title: "Medellín vs Bogotá: Which Colombian City Should You Visit?"
 description: "A direct comparison of Colombia's two great cities — Medellín and Bogotá — covering weather, safety, cost, culture, food, and which type of traveler each city suits best."
 pubDate: 2026-02-25
+dateModified: 2026-03-08
 heroImage: ""
 author: "Scott"
 tags: ["colombia", "medellin", "bogota", "city-guide", "comparison"]

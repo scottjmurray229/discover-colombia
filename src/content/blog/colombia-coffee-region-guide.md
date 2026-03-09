@@ -2,6 +2,7 @@
 title: "Colombia's Coffee Region Guide: Salento, Jardín, and the Eje Cafetero"
 description: "Complete guide to Colombia's Coffee Triangle — Salento, Jardín, Filandia, the Cocora Valley, and how to do a coffee farm tour the right way."
 pubDate: 2026-02-18
+dateModified: 2026-03-08
 heroImage: ""
 author: "Scott"
 tags: ["colombia", "coffee", "salento", "jardin", "eje-cafetero"]

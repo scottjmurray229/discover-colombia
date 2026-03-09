@@ -2,6 +2,7 @@
 title: "Colombia 2-Week Itinerary: The Perfect First Trip"
 description: "The ideal two-week Colombia itinerary — Cartagena, Medellín, Coffee Region, Bogotá — with day-by-day planning, transport, costs, and what to skip."
 pubDate: 2026-02-10
+dateModified: 2026-03-08
 heroImage: ""
 author: "Scott"
 tags: ["colombia", "itinerary", "planning", "first-trip"]
