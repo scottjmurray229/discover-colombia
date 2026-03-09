@@ -22,7 +22,7 @@ export const COLOMBIA_CONFIG: PackingConfig = {
   currency: 'COP',
   plugType: 'Type A/B',
   plugVoltage: '110V',
-  affiliateTag: 'discovermore-20',
+  affiliateTag: 'discoverphili-20',
   destinationEssentials: COLOMBIA_ESSENTIALS,
   gearRecommendations: COLOMBIA_GEAR_RECOMMENDATIONS,
 };
