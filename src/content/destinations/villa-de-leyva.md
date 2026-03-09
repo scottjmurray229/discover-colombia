@@ -27,9 +27,13 @@ relatedDestinations:
   - "barichara"
   - "tatacoa-desert"
 faqItems:
+  - { question: "Is Villa de Leyva safe?", answer: "Villa de Leyva is very safe — a small, well-maintained colonial town that is a popular weekend destination for Colombian families and tourists. Crime is minimal. The routes to surrounding attractions (El Infiernito, fossil museums) are all well-traveled and safe." }
+  - { question: "Is Villa de Leyva worth visiting?", answer: "Yes, especially if you are coming from Bogotá and want a colonial town experience without the journey to Barichara or Cartagena. The plaza alone — Colombia's largest, 14,000 square meters of cobblestone — is extraordinary. The fossil sites (a 120-million-year-old Kronosaurus) and desert landscapes add genuine scientific and visual interest." }
+  - { question: "Best time to visit Villa de Leyva?", answer: "The dry seasons from December to February and June to August offer the best weather. The Festival of Lights in December and the kite festival in August are highlights. The rainy season (April-May, October-November) is quieter but expect afternoon showers. Avoid Bogotano holiday weekends (puentes festivos) if you want lower prices and fewer crowds." }
+  - { question: "How much does Villa de Leyva cost per day?", answer: "Mid-range by Colombian standards. Budget travelers in basic hostels can manage $28-40 USD/day. Mid-range visitors at a comfortable colonial hotel should budget $65-120 USD/day. Weekend prices are 30-50% higher than midweek — visiting Tuesday-Thursday saves significantly." }
+  - { question: "Do I need a visa for Colombia?", answer: "US, Canadian, Australian, UK, and most EU nationals enter Colombia visa-free for up to 90 days. No prior application is needed — just a valid passport and a stamp at entry." }
+  - { question: "What is Villa de Leyva famous for?", answer: "Villa de Leyva is famous for its Plaza Mayor — Colombia's largest colonial plaza at 14,000 square meters of cobblestone — the Kronosaurus fossil museum, the El Infiernito pre-Columbian stone observatory (Colombia's Stonehenge), and the Desierto de la Candelaria. It is one of the best-preserved colonial towns in Colombia." }
   - { question: "How many days should I spend in Villa de Leyva?", answer: "Two to three days is ideal. One day covers the plaza and town center, a second day allows for the fossil museums and desert hikes, and a third day lets you explore surrounding attractions like Raquira pottery village and the Iguaque sanctuary at a relaxed pace." }
-  - { question: "Is Villa de Leyva crowded on weekends?", answer: "Yes, Villa de Leyva is an extremely popular weekend escape for Bogotanos. Accommodation prices can double on weekends and holiday bridges (puentes festivos). Visit midweek for lower prices and a quieter experience. If visiting on a weekend, book accommodation well in advance." }
-  - { question: "What is the best time of year to visit Villa de Leyva?", answer: "The dry seasons from December to February and June to August offer the best weather. The Festival of Lights in December and the kite festival in August are highlights. The rainy season (April-May, October-November) is quieter but expect afternoon showers." }
   - { question: "Can I visit Villa de Leyva as a day trip from Bogota?", answer: "Technically yes, but I do not recommend it. The four-hour bus ride each way leaves very little time to explore. At minimum, spend one night to properly enjoy the town's atmosphere, especially the magical experience of the plaza lit up after dark." }
 affiliatePicks:
   - name: "Hotel Boutique Plazuela de San Agustin"
@@ -95,6 +99,8 @@ The museum charges a modest entrance fee of around COP 10,000 (~$2.50 USD) and t
 ### The Paleontological Research Center
 
 For a more in-depth look at the region's fossil heritage, the Centro de Investigaciones Paleontologicas near the town center houses an impressive collection of ammonites, marine reptiles, and other specimens found in the surrounding area. The displays are well-curated and the explanatory panels are informative. I spent over an hour here and learned things about Cretaceous marine ecosystems that I had never encountered before.
+
+<immersive-break-inline videoSrc="/videos/destinations/villa-de-leyva-hero.mp4" heading="Villa de Leyva: Where Colonial Grandeur Meets Ancient Earth" subheading="Colombia's largest plaza, a 120-million-year-old fossil, and the country's most beautiful weekend escape" />
 
 ## El Infiernito — Colombia's Stonehenge
 

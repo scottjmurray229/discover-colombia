@@ -27,10 +27,14 @@ relatedDestinations:
   - "villa-de-leyva"
   - "barichara"
 faqItems:
+  - { question: "Is Salento safe?", answer: "Salento is very safe — a small, popular tourist town in the Coffee Region with a strong ecotourism economy and minimal crime. The Cocora Valley trail is well-traveled and safe. Standard precautions for Colombia apply: use ride-hailing apps in larger nearby cities, keep valuables secure." }
+  - { question: "Is Salento worth visiting?", answer: "For coffee lovers and nature travelers, absolutely. Salento is Colombia's gateway to the Coffee Axis — working fincas where you can learn the full bean-to-cup process from farmers whose families have grown coffee for generations. The Cocora Valley, with the world's tallest palm trees rising 60 meters from a misty cloud forest, is genuinely extraordinary." }
+  - { question: "Best time to visit Salento?", answer: "January through February and June through August are the driest months with the best conditions for the Cocora Valley hike and coffee farm visits. The Coffee Region receives year-round rainfall, so there is no truly dry season — but the lighter months have fewer muddy trails and more reliable sunshine. Avoid Easter week when crowds and prices peak." }
+  - { question: "How much does Salento cost per day?", answer: "Salento is affordable. Budget travelers in hostel dorms can manage $24-35 USD/day. Mid-range visitors at a comfortable hotel with restaurant meals and a coffee tour should budget $55-90 USD/day. The Cocora Valley hike (free entry, optional rubber boot rental COP 5,000) and coffee farm tours ($6-8 USD) are very cheap activities." }
   - { question: "How long should I spend in Salento?", answer: "Three days is the sweet spot. Day one for the Cocora Valley hike, day two for a coffee farm tour and exploring Salento town, and day three for a second hike or visiting Filandia, a nearby town with a spectacular viewpoint. Two days works if you are pressed for time." }
+  - { question: "What is Salento famous for?", answer: "Salento is famous for the Cocora Valley — home to the wax palm (Ceroxylon quindiuense), the world's tallest palm tree, reaching 60 meters, and Colombia's national tree. It is also the heart of the Colombian Coffee Region and a base for visiting the working coffee fincas that produce world-renowned Colombian coffee." }
   - { question: "Is the Cocora Valley hike difficult?", answer: "The full loop trail is moderate — about 11-12 kilometers over 4-5 hours with some uphill sections and stream crossings. The first half through the valley floor to the palms is easy and mostly flat. The loop through the cloud forest involves steeper terrain and can be muddy. Rubber boots are available for rent at the trailhead for COP 5,000 (~$1.20 USD)." }
   - { question: "Which coffee farm tour is best?", answer: "For an intimate, educational experience, I recommend the smaller fincas like Finca El Ocaso or Don Elias over the larger operations. The smaller farms let you walk through every step of the process — picking, processing, drying, roasting — and typically end with a tasting of freshly prepared coffee. Tours run COP 25,000-35,000 (~$6-8 USD)." }
-  - { question: "Can I visit Salento as a day trip?", answer: "You can technically visit from Armenia or Pereira in a day, but you would need to choose between Cocora Valley and a coffee tour — there is not enough time for both. I strongly recommend staying at least two nights to experience the town properly and avoid feeling rushed." }
 affiliatePicks:
   - name: "Coffee Farm Tour with Finca El Ocaso"
     type: "tour"
@@ -80,6 +84,8 @@ Overnight buses from Bogota to Armenia run with several companies and take 8-9 h
 ### The Willys Jeeps
 
 Once you are in Salento, the iconic mode of transport is the Willys jeep — vintage American military vehicles from the 1940s and 1950s that have been repurposed as shared taxis throughout the Coffee Region. They run from Salento's main plaza to the Cocora Valley trailhead (COP 9,000 / ~$2 USD each way, 30 minutes) and to various coffee farms. Riding in the back of a Willys, standing and gripping the roll bar as it bounces along mountain roads, is an experience unto itself.
+
+<immersive-break-inline videoSrc="/videos/destinations/salento-hero.mp4" heading="Salento: Colombia's Coffee Country and the Wax Palm Valleys" subheading="60-meter palm trees, cloud forest trails, and coffee from the source" />
 
 ## The Cocora Valley
 

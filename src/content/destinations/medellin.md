@@ -24,7 +24,12 @@ relatedDestinations:
   - "santa-marta"
 faqItems:
   - { question: "Is Medellín safe for tourists in 2026?", answer: "Medellín has transformed remarkably and most tourist areas are safe. Stick to well-known neighbourhoods like El Poblado, Laureles, Envigado, and the city centre during daytime. Use ride-hailing apps at night. Avoid venturing into unfamiliar barrios alone, keep valuables discreet, and exercise the same common sense you would in any large city. The Metrocable and Metro are safe and heavily monitored." }
-  - { question: "What is the paisa culture like?", answer: "Paisas — the people of the Antioquia region — are famously warm, proud, and entrepreneurial. They speak with a distinctive lilting accent, use 'vos' instead of 'tú', and are genuinely welcoming to visitors. Expect strangers to strike up conversations, offer directions without being asked, and invite you to share a tinto (coffee). The paisa warmth is not performative — it is deeply embedded in the culture." }
+  - { question: "Is Medellín worth visiting?", answer: "Medellín is one of the world's great urban transformation stories — from the world's most dangerous city in the early 1990s to an innovation capital that now hosts tech conferences and design festivals. The City of Eternal Spring climate, the Comuna 13 story, the Metrocable, the food scene, and the extraordinary paisa warmth make it one of Colombia's most compelling destinations." }
+  - { question: "Best time to visit Medellín?", answer: "Medellín's high-altitude subtropical climate is pleasant year-round — 18-28°C with minimal seasonal variation. December through February and July through August are the driest months. April and October-November see the most rain (though showers are usually afternoon bursts). December brings the famous Feria de las Flores, one of Colombia's best festivals." }
+  - { question: "How much does Medellín cost per day?", answer: "Medellín is excellent value. Budget travelers in El Poblado or Laureles hostels can manage $25-35 USD/day. Mid-range visitors at a comfortable apartment or hotel with restaurant meals and tours should budget $60-100 USD/day. Medellín is significantly cheaper than Cartagena and very affordable by North American or European standards." }
+  - { question: "Do I need a visa to visit Colombia?", answer: "US, Canadian, Australian, UK, and most EU nationals enter Colombia visa-free for up to 90 days, extendable to 180 days per year. Your passport is stamped at entry. No visa application is needed before travel." }
+  - { question: "What is Medellín famous for?", answer: "Medellín is famous for its extraordinary urban transformation (from cartel era to innovation capital), the Metrocable gondola system over hillside barrios, Comuna 13's street art and outdoor escalators, the work of Fernando Botero, the Feria de las Flores flower festival, and its perfect year-round spring climate." }
+  - { question: "What is the paisa culture like?", answer: "Paisas — the people of the Antioquia region — are famously warm, proud, and entrepreneurial. They speak with a distinctive lilting accent, use 'vos' instead of 'tú', and are genuinely welcoming to visitors. Expect strangers to strike up conversations, offer directions without being asked, and invite you to share a tinto (coffee). The paisa warmth is not performative." }
   - { question: "Should I stay in El Poblado or Laureles?", answer: "El Poblado is the most popular tourist base — walkable, full of restaurants and hostels, and generally safe. However, it can feel like a gringo bubble. Laureles offers a more authentic local experience with excellent dining, leafy streets, and lower prices. I prefer Laureles for longer stays, but El Poblado is a fine choice for first-timers or short visits." }
 affiliatePicks:
   - name: "Real City Walking Tour Medellín"
@@ -41,6 +46,16 @@ affiliatePicks:
     type: "tour"
     price: "COP 200,000 (~$50 USD)"
     personalNote: "A full day visiting a working coffee finca near the pueblo of Jardín, about 3 hours south of Medellín. You pick, process, and taste coffee while surrounded by green Andean mountains. Worth every peso."
+    affiliateUrl: "#"
+  - name: "Metrocable Line K Day Pass + Tour"
+    type: "tour"
+    price: "COP 100,000 (~$25 USD)"
+    personalNote: "A guided Metrocable excursion that puts the urban transformation story in context. Ride the gondola over hillside barrios, visit the Parque Arví ecological reserve at the top, and understand how public infrastructure changed life in Medellín's comunas."
+    affiliateUrl: "#"
+  - name: "Spanish Phrasebook Colombia"
+    type: "activity"
+    price: "~$10 USD"
+    personalNote: "Medellín rewards Spanish effort more than almost any city in Colombia. Paisas love it when visitors attempt their language, and the paisa dialect is actually one of Latin America's clearest and easiest to understand. A pocket phrasebook goes a long way."
     affiliateUrl: "#"
 lastVerified: 2026-02-27
 contentStatus: "published"
@@ -74,6 +89,8 @@ The city centre around Plaza Botero is chaotic and crowded — vendors hawking e
 ### Parque de los Deseos and Planetario
 
 A short walk north from Plaza Botero, Parque de los Deseos is a public space that comes alive in the evenings. Locals gather on the sloped concrete banks to watch outdoor film screenings and simply hang out. The adjacent Planetario de Medellín hosts science exhibitions and star shows. The surrounding area, part of the city's "Northern Zone" revitalisation project, connects to the Botanical Garden and Parque Explora, a science museum popular with families.
+
+<immersive-break-inline videoSrc="/videos/destinations/medellin-hero.mp4" heading="Medellín: From the World's Most Dangerous City to the City of Eternal Spring" subheading="The transformation is real — and it is extraordinary to witness" />
 
 ## The Metrocable: Medellín's Signature Innovation
 

@@ -23,9 +23,14 @@ relatedDestinations:
   - "bogota"
   - "medellin"
 faqItems:
-  - { question: "Do I need to know how to dance salsa to enjoy Cali?", answer: "Not at all, but you should be willing to try. Caleños are welcoming and patient with beginners on the dance floor. Take a lesson — many hostels and dance schools offer beginner classes for COP 30,000-50,000 (~$7-12 USD). Even with two left feet, the energy of a packed salsoteca will sweep you along. Nobody is judging, and everybody dances." }
   - { question: "Is Cali safe for tourists?", answer: "Cali has a rougher reputation than Medellín or Bogotá, and parts of the city require genuine caution. Stick to known areas: San Antonio, Granada, El Peñón, and the Zona Rosa around Parque del Perro. Use ride-hailing apps at night. Do not walk with your phone out in unfamiliar areas. Juanchito, the famous salsa district, is fine inside the clubs but take a taxi directly to and from the venue. With sensible precautions, most visitors have a great experience." }
-  - { question: "When is the Feria de Cali?", answer: "The Feria de Cali runs from December 25 to December 30 each year. It is one of the biggest festivals in Colombia — five days of salsa competitions, live concerts, parades, bullfighting, and a general atmosphere of non-stop celebration. Hotels fill up months in advance and prices spike, but if you can time your visit for the Feria, it is an unforgettable experience." }
+  - { question: "Is Cali worth visiting?", answer: "For anyone interested in salsa, Afro-Colombian culture, or off-the-beaten-path Colombia, absolutely. Cali is raw, affordable, and genuinely authentic — far less tourist-polished than Medellín or Cartagena. The salsa culture is the most vibrant in the world, and the Feria de Cali (December 25-30) is one of Latin America's great festivals." }
+  - { question: "Best time to visit Cali?", answer: "December through February and July through August are the sunniest, driest months. The Feria de Cali (December 25-30) is the city's peak cultural moment — if you can time your visit for this, do it, but book accommodation months in advance. The city is warm and lively year-round." }
+  - { question: "How much does Cali cost per day?", answer: "Cali is one of Colombia's most affordable cities. Budget travelers can manage $20-30 USD/day in San Antonio or Granada hostels eating at local spots. Mid-range visitors spending on better accommodation and restaurants should budget $60-100 USD/day. Cali is significantly cheaper than Cartagena and Medellín." }
+  - { question: "Do I need a visa for Colombia?", answer: "US, Canadian, Australian, UK, and most EU nationals enter Colombia visa-free for up to 90 days. No prior application is required — your passport is stamped at entry." }
+  - { question: "What is Cali famous for?", answer: "Cali is famous worldwide as the capital of salsa dancing — the Cali style (quick footwork, tight partner connection) is distinct from New York or Cuban salsa. The city is also known for its Afro-Colombian culture, the Feria de Cali festival, Cristo Rey statue, and being the economic capital of southwestern Colombia." }
+  - { question: "Do I need to know how to dance salsa to enjoy Cali?", answer: "Not at all, but you should be willing to try. Caleños are welcoming and patient with beginners on the dance floor. Take a lesson — many hostels and dance schools offer beginner classes for COP 30,000-50,000 (~$7-12 USD). Even with two left feet, the energy of a packed salsoteca will sweep you along." }
+  - { question: "When is the Feria de Cali?", answer: "The Feria de Cali runs from December 25 to December 30 each year. It is one of the biggest festivals in Colombia — five days of salsa competitions, live concerts, parades, and a general atmosphere of non-stop celebration. Hotels fill up months in advance and prices spike, but if you can time your visit for the Feria, it is an unforgettable experience." }
 affiliatePicks:
   - name: "Salsa Lesson (Beginner)"
     type: "activity"
@@ -76,6 +81,8 @@ The salsotecas — dedicated salsa dance clubs — are where the magic happens. 
 The legendary salsa district of Juanchito lies just east of Cali, technically in the municipality of Candelaria. On Friday and Saturday nights, the strip of clubs along the main road fills with caleños who come to dance until sunrise. The music is loud, the energy is intense, and the dancing is at the highest level you will see outside of a competition. I went on a Saturday night and stayed until 4 AM, which in Juanchito qualifies as an early departure.
 
 A word of practical advice: take a taxi directly to your chosen club and arrange a pickup for the return. The area between the clubs is not ideal for walking at night. Inside the venues, you are fine — the atmosphere is celebratory, not threatening.
+
+<immersive-break-inline videoSrc="/videos/destinations/cali-hero.mp4" heading="Cali: The World Capital of Salsa" subheading="Where the music never stops and the dance floor is everywhere" />
 
 ## San Antonio: The Neighbourhood That Stole My Heart
 

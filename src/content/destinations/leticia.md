@@ -26,9 +26,12 @@ relatedDestinations:
   - "bogota"
   - "tatacoa-desert"
 faqItems:
+  - { question: "Is Leticia safe?", answer: "Leticia is a calm, small border town with a long history of ecotourism. The city itself is very safe for tourists. Jungle excursions must be done with licensed guides — not for safety from locals, but because the rainforest is genuinely disorienting without expert guidance. Carry your passport, use insect repellent, and hydrate constantly in the equatorial heat." }
+  - { question: "Is Leticia worth visiting?", answer: "For the Amazon experience from Colombia, yes — there is no comparable alternative. The access to primary Amazon rainforest, pink river dolphins, three-country border (Colombia-Brazil-Peru), and indigenous community visits is extraordinary. The effort and cost of flying in are real, but the reward matches them." }
+  - { question: "Best time to visit Leticia?", answer: "July through October (dry season) is generally preferred for wildlife spotting — lower water levels concentrate animals and make jungle trails accessible. The wet season (December-May) floods the forest, enabling spectacular canoe trips through the igapo (flooded forest) and makes river dolphins more active. Both seasons have merit; dry season is easier for first-timers." }
+  - { question: "How much does a Leticia Amazon trip cost?", answer: "Plan for $35-50 USD/day for basics in Leticia. The big expense is the jungle lodge: 3-night packages with all meals and guided excursions run $212-350 USD total. Flights from Bogotá add $60-120 USD one way. Total budget for a 5-day Amazon trip from Bogotá: $450-800 USD including flights, lodge, and daily expenses." }
   - { question: "How do I get to Leticia?", answer: "You must fly. There are no roads connecting Leticia to the rest of Colombia — the city is completely surrounded by jungle. Flights from Bogota take about 1 hour 45 minutes and are operated by LATAM and Avianca. Book in advance for the best fares, as prices increase significantly close to travel dates." }
   - { question: "Do I need a yellow fever vaccination?", answer: "Yes. A yellow fever vaccination certificate is required for entry into the Leticia/Amazonas region. You must be vaccinated at least 10 days before arrival. Carry your physical or digital International Certificate of Vaccination. Some airlines check this before boarding." }
-  - { question: "Is it safe to visit the Amazon from Leticia?", answer: "Yes, with reasonable precautions. Leticia itself is a calm, small city. Jungle excursions should always be done with licensed guides — the forest is not a place to explore independently. Bring insect repellent with DEET, wear long sleeves and pants in the jungle, and stay hydrated. The most common health risk is mosquito-borne illness, which proper precautions mitigate." }
   - { question: "How many days do I need in Leticia?", answer: "Four to five days is ideal. This allows a day to explore Leticia and Tabatinga, two to three days in a jungle lodge with excursions, and a day for the Isla de los Micos or dolphin-watching. Anything less than three days feels rushed given the cost and effort of getting here." }
   - { question: "Can I cross into Brazil and Peru?", answer: "Yes. You can walk from Leticia into Tabatinga, Brazil freely — no passport stamp needed for day visits. To travel deeper into Brazil, you need proper entry. For Peru, small boats cross to Santa Rosa, and from there you can continue to Iquitos. Bring your passport for any border crossing." }
 affiliatePicks:
@@ -82,6 +85,8 @@ This is non-negotiable. You must have a valid yellow fever vaccination certifica
 ### Arriving in Leticia
 
 The airport is small and located at the edge of town. Taxis to the center cost COP 8,000-10,000 (~$2-2.35 USD). There is also a modest airport tax of COP 27,000 (~$6 USD) payable upon departure that catches some travelers off guard — carry cash.
+
+<immersive-break-inline videoSrc="/videos/destinations/leticia-hero.mp4" heading="Leticia: Colombia's Amazon at the Edge of Three Nations" subheading="Pink river dolphins, jungle lodges, and where Colombia, Brazil, and Peru meet" />
 
 ## The Three-Country Border
 

@@ -27,10 +27,14 @@ relatedDestinations:
   - "villa-de-leyva"
   - "leticia"
 faqItems:
-  - { question: "Is the Tatacoa Desert a real desert?", answer: "Technically, Tatacoa is classified as a tropical dry forest rather than a true desert. It receives about 1,000 mm of rain annually, which is more than a true desert. However, the landscape — eroded badlands of red and grey clay with cacti and minimal vegetation — looks and feels like a desert. The local name 'desierto' is well-earned by the terrain's appearance." }
+  - { question: "Is the Tatacoa Desert safe?", answer: "The Tatacoa Desert is very safe for tourists. It is a remote, sparsely populated area with a small ecotourism economy built around the observatory and accommodation. The main risk is the heat — 40°C daytime temperatures are dangerous if you are not hydrating properly. Take a mototaxi or colectivo between sites rather than walking in midday sun." }
+  - { question: "Is the Tatacoa Desert worth visiting?", answer: "For travelers who appreciate otherworldly landscapes and serious stargazing, absolutely. The Tatacoa is one of Colombia's most surreal and photogenic landscapes — red and grey eroded badlands that look like Mars. The observatory night sessions are among the best astronomy experiences I have had outside of high-altitude Chile or Utah." }
+  - { question: "Best time to visit the Tatacoa Desert?", answer: "June through September and December through January offer the driest skies and best stargazing conditions. Avoid April-May and October-November when clouds can obscure the observatory sessions. The desert is always hot — temperatures hit 38-42°C year-round — so visit during dry months when you at least have clear nights to compensate." }
+  - { question: "How much does the Tatacoa Desert cost per day?", answer: "The Tatacoa is very affordable. Budget travelers camping or in basic hostels can manage $19-30 USD/day including meals and the observatory session (~$5 USD). Mid-range visitors at a hotel with a pool should budget $50-80 USD/day. Getting there from Bogotá (bus to Neiva, then local transport) costs about $15-20 USD one-way." }
+  - { question: "Is the Tatacoa Desert a real desert?", answer: "Technically, Tatacoa is classified as a tropical dry forest rather than a true desert — it receives about 1,000 mm of rain annually. However, the landscape of eroded red and grey badlands with cacti and minimal vegetation looks and feels like a desert. The local name 'desierto' is well-earned by the terrain's appearance." }
+  - { question: "What is the Tatacoa Desert famous for?", answer: "The Tatacoa Desert is famous for its surreal red and grey badland landscapes (the Cuzco and Los Hoyos sections), world-class stargazing at the Tatacoa Astronomical Observatory, dinosaur and fossil discoveries, and the natural pool fed by underground springs. It is one of Colombia's most photogenic and least-visited landscapes." }
   - { question: "How long should I visit?", answer: "One full day and one night is the minimum. This gives you time to explore both the red (Cuzco) and grey (Los Hoyos) sections during the day and attend a stargazing session at the observatory after dark. Two days allows a more relaxed pace with sunrise and sunset explorations when the colors are most dramatic." }
   - { question: "How hot does it get?", answer: "Extremely hot. Daytime temperatures routinely reach 38-42°C (100-108°F), and the terrain offers almost no natural shade. Plan outdoor exploration for early morning (before 9 AM) and late afternoon (after 4 PM). Midday is best spent resting in the shade, swimming in the natural pool, or sleeping in your accommodation." }
-  - { question: "Can I visit Tatacoa as a day trip?", answer: "Only if you are based in Neiva, which is about an hour away. From Bogota or any other major city, a day trip is not feasible. I strongly recommend staying overnight to experience the stargazing — the night sky is the desert's greatest spectacle and missing it means missing the point." }
 affiliatePicks:
   - name: "Bethel Bio Luxury Hotel"
     type: "hotel"
@@ -81,6 +85,8 @@ The accommodations and entry points for the desert are located 5-10 kilometers f
 ### By Air
 
 If flying, the nearest airport is Neiva's Benito Salas Airport (NVA), served by domestic flights from Bogota, Medellin, and Cali. From the airport, proceed to Neiva's bus terminal for the connection to Villavieja.
+
+<immersive-break-inline videoSrc="/videos/destinations/tatacoa-desert-hero.mp4" heading="The Tatacoa Desert: Colombia's Red and Grey Otherworld" subheading="Eroded badlands, the Milky Way overhead, and stargazing under some of Colombia's darkest skies" />
 
 ## The Red Desert: Cuzco
 

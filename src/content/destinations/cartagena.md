@@ -23,8 +23,13 @@ relatedDestinations:
   - "santa-marta"
   - "san-andres"
 faqItems:
-  - { question: "Is Cartagena worth visiting despite the heat?", answer: "Yes, absolutely, but you need to plan around it. The heat and humidity are intense — temperatures regularly hit 33°C with high humidity. Explore the old town early in the morning or in the late afternoon. Take a midday break at your hotel pool or an air-conditioned restaurant. Carry water constantly. The evening hours, when the old town glows golden under the street lamps and the temperature drops slightly, are magical and worth the daytime sweat." }
-  - { question: "How touristy is Cartagena?", answer: "Very, especially within the walled city. Cartagena is Colombia's most visited destination and it shows — cruise ships dock regularly, tours crowd the plazas, and prices in the old town are the highest in the country. That said, the beauty is genuine, the food scene has real depth, and stepping just outside the walls into Getsemaní reveals a grittier, more authentic neighbourhood that still feels local." }
+  - { question: "Is Cartagena safe?", answer: "The walled old city and Getsemaní are generally safe for tourists, particularly during the day and in the evening when crowds are thick. Use Uber or InDriver rather than hailing taxis on the street. Avoid isolated areas after midnight. Petty theft (phone snatching, pickpocketing) is the primary risk rather than violent crime. The tourist police are visible and responsive." }
+  - { question: "Is Cartagena worth visiting?", answer: "Absolutely. Cartagena is the most beautiful colonial city in the Americas — a UNESCO World Heritage walled old town of pastel facades, bougainvillea-draped balconies, and Caribbean light. Beyond the aesthetics, the food scene is excellent, the Rosario Islands are stunning, and Getsemaní has a genuine local soul. The heat and tourist prices are the only downsides." }
+  - { question: "Best time to visit Cartagena?", answer: "December through March is the coolest and driest season — still very hot, but the trade winds moderate the humidity and rainfall is minimal. April and November are the wettest months. The city is beautiful year-round; the main variable is temperature and humidity rather than rain. Christmas and New Year bring higher prices and a festive atmosphere." }
+  - { question: "How much does Cartagena cost per day?", answer: "Cartagena is Colombia's most expensive city. Budget travelers in Getsemaní hostels eating at local spots can manage $35-50 USD/day. Mid-range visitors at a nice colonial hotel with restaurant meals and a tour should budget $100-150 USD/day. The walled city's restaurants and bars command significant price premiums over the rest of Colombia." }
+  - { question: "Do I need a visa to visit Colombia?", answer: "US, Canadian, Australian, UK, and most EU nationals can enter Colombia visa-free for up to 90 days. You will receive an entry stamp at the airport. The limit is 180 days per calendar year total. No visa application is required before travel." }
+  - { question: "What is Cartagena famous for?", answer: "Cartagena is famous for its stunning UNESCO-listed walled old city (founded 1533), the Castillo San Felipe de Barajas fortress (the largest Spanish colonial fort in the Americas), its vibrant Caribbean food scene, the Rosario Islands, and Gabriel García Márquez, who wrote much of his work here. It is Colombia's most visited destination." }
+  - { question: "Is Cartagena worth visiting despite the heat?", answer: "Yes, absolutely. The heat and humidity are intense — temperatures regularly hit 33°C with high humidity. Explore the old town early morning or late afternoon. Take a midday break at your hotel pool. The evening hours, when the old town glows golden under street lamps and the temperature drops slightly, are magical and worth the daytime sweat." }
   - { question: "How many days should I spend in Cartagena?", answer: "Three full days is the sweet spot. Day one for the walled city and Getsemaní, day two for the Rosario Islands or Playa Blanca, day three for Castillo San Felipe, the Bazurto market, and a sunset on the walls. If you have a fourth day, use it for the La Boquilla mangrove tour or a seafood lunch at a beach club on Tierra Bomba." }
 affiliatePicks:
   - name: "Casa Lola Cartagena"
@@ -41,6 +46,16 @@ affiliatePicks:
     type: "tour"
     price: "COP 180,000 (~$45 USD)"
     personalNote: "The real Cartagena food experience. This chaotic, sprawling local market is where the city actually eats. A guided food tour takes you through the stalls for ceviche, fried fish, exotic fruits, and juices you have never heard of."
+    affiliateUrl: "#"
+  - name: "Getsemani Neighbourhood Walking Tour"
+    type: "tour"
+    price: "COP 100,000 (~$25 USD)"
+    personalNote: "The neighborhood just outside the walls that Cartagena's gentrification skipped — grittier, more authentic, covered in extraordinary street murals. A guided walk adds the historical and social context that the Instagram photos don't."
+    affiliateUrl: "#"
+  - name: "Reef-Safe Sunscreen SPF 50"
+    type: "activity"
+    price: "~$16 USD"
+    personalNote: "Essential for the Rosario Islands. Colombia requires reef-safe formula in marine protected areas. Pack it from home — prices at island vendors are inflated."
     affiliateUrl: "#"
 lastVerified: 2026-02-27
 contentStatus: "published"
@@ -84,6 +99,8 @@ Start at the corner of Calle de la Sierpe and walk toward the plaza. Nearly ever
 The Castillo San Felipe is the largest and most important Spanish colonial fortress in the Americas, and exploring it is a genuinely impressive experience. Built in the 17th century on the Cerro de San Lázaro, the fortress is a massive complex of walls, tunnels, and batteries designed to withstand naval bombardment. The tunnel system is particularly remarkable — the acoustics were designed so that approaching footsteps could be heard from deep inside the structure.
 
 I spent a solid two hours here, exploring the tunnels by flashlight, climbing to the upper batteries for city views, and reading the plaques that explain the various sieges the fortress endured. Entry costs COP 25,000 (~$6 USD). Go early in the morning to avoid both the heat and the cruise ship crowds. The walk up the hill in midday sun is punishing.
+
+<immersive-break-inline videoSrc="/videos/destinations/cartagena-hero.mp4" heading="Cartagena: Colombia's Caribbean Colonial Jewel" subheading="Pastel facades, fortress walls, and the most beautiful old town in the Americas" />
 
 ## The Rosario Islands
 

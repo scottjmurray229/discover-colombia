@@ -27,9 +27,13 @@ relatedDestinations:
   - "bogota"
   - "salento"
 faqItems:
+  - { question: "Is Barichara safe?", answer: "Barichara is one of Colombia's safest destinations — a tiny, well-preserved colonial town with a tight-knit community and minimal crime. The Camino Real trail is safe and frequented by both locals and tourists. Standard precautions apply for the journey through larger cities on the way." }
+  - { question: "Is Barichara worth visiting?", answer: "For travelers who appreciate colonial heritage, hiking, and authentic Colombia far from the tourist circuit, absolutely. Barichara is declared a National Monument and is genuinely one of the most beautiful small towns in South America. Walking its stone streets at sunrise or sunset, with almost no other tourists, is something very few Colombia itineraries include — which makes it all the more special." }
+  - { question: "Best time to visit Barichara?", answer: "December through February and June through August are the driest months with clear skies and comfortable temperatures (22-28°C). The Semana Santa celebrations in March or April draw more visitors and have a festive atmosphere. Avoid October and November when rain can make the Camino Real trail muddy." }
+  - { question: "How much does Barichara cost per day?", answer: "Barichara is affordable. Budget travelers in basic hostels can manage $24-35 USD/day. Mid-range visitors at a boutique colonial pousada should budget $60-100 USD/day. The activities (Camino Real hike, artisan workshops) are very cheap or free. It is one of Colombia's best-value heritage destinations." }
   - { question: "How long should I spend in Barichara?", answer: "Two full days is ideal. Day one for the Camino Real hike to Guane and back, and day two for exploring the town, visiting artisan workshops, and soaking in the atmosphere. Barichara rewards slow travel — rushing through defeats its purpose. Some travelers stay a week and still find it hard to leave." }
-  - { question: "Is the Camino Real hike to Guane difficult?", answer: "No, it is a moderate downhill walk of about 5.8 kilometers that takes 1.5-2 hours. The path is a colonial-era stone road built over 200 years ago and is well-maintained. The return is uphill and takes 2-2.5 hours, or you can catch a colectivo back from Guane for COP 5,000 (~$1.20 USD). Bring water, a hat, and sunscreen as there is limited shade." }
-  - { question: "Is Barichara worth the detour?", answer: "Absolutely. It is one of the most beautiful and authentic small towns in all of Colombia. The journey from San Gil is short, and the experience of walking Barichara's stone streets at sunset or sunrise, with almost no other tourists around, is something I consider essential to understanding the quieter, deeper side of Colombia." }
+  - { question: "What is Barichara famous for?", answer: "Barichara is famous for being Colombia's most beautiful colonial town — its stone-paved streets, whitewashed facades, and baroque church have been declared a National Monument. The Camino Real walk to Guane and the artisan workshops using fique fiber and local clay are also well-known among travelers who seek Colombia beyond the main circuit." }
+  - { question: "Is the Camino Real hike to Guane difficult?", answer: "No, it is a moderate downhill walk of about 5.8 kilometers that takes 1.5-2 hours. The path is a colonial-era stone road built over 200 years ago and is well-maintained. The return is uphill (2-2.5 hours), or catch a colectivo back from Guane for COP 5,000 (~$1.20 USD). Bring water, a hat, and sunscreen." }
   - { question: "Can I combine Barichara with San Gil?", answer: "Yes, and I recommend it. San Gil is the adventure sports capital of Colombia (rafting, paragliding, caving) while Barichara is its tranquil counterpart. Many travelers base in San Gil for the activities and make day trips to Barichara, though I prefer staying in Barichara and making day trips to San Gil — it is a more peaceful base." }
 affiliatePicks:
   - name: "Hotel Corata Boutique"
@@ -75,6 +79,8 @@ If you are flying into the region, Bucaramanga's Palonegro Airport (BGA) is the 
 ### Getting Around
 
 Barichara is tiny and perfectly walkable. Everything — the plaza, the churches, the mirador, the workshops, the restaurants — is within a ten-minute stroll. For the Camino Real hike to Guane, you walk out of town on foot. For trips to San Gil, colectivos run from the main road on the edge of town.
+
+<immersive-break-inline videoSrc="/videos/destinations/barichara-hero.mp4" heading="Barichara: Colombia's Most Beautiful Colonial Town" subheading="Stone-paved streets, the Camino Real walk, and a pace of life from another century" />
 
 ## The Camino Real to Guane
 

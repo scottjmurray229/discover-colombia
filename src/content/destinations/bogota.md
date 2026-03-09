@@ -24,6 +24,11 @@ relatedDestinations:
   - "cartagena"
 faqItems:
   - { question: "Is Bogotá safe for tourists?", answer: "Bogotá has improved dramatically in terms of safety. Stick to well-travelled areas like La Candelaria during the day, Zona G, Zona T, Usaquén, and Chapinero. Use registered taxis or ride apps like Uber, InDrive, or DiDi. Avoid walking alone at night in unfamiliar neighbourhoods and keep valuables out of sight. Common sense goes a long way here." }
+  - { question: "Is Bogotá worth visiting?", answer: "Yes — Bogotá consistently surprises visitors who arrive with low expectations. The Museo del Oro (55,000 pre-Columbian gold artifacts) is one of the world's great museums. The Candelaria street art scene rivals any city. The food scene has exploded. And at 2,640 meters above sea level, the temperature is cool and comfortable year-round — a refreshing contrast to Colombia's tropical coasts." }
+  - { question: "Best time to visit Bogotá?", answer: "December through March and July through August are the driest months. The city is enjoyable year-round — the altitude keeps temperatures between 7-18°C regardless of season. La Candelaria on a sunny day is beautiful; the same streets in the rain have a different, more cinematic quality. Check cycling events: Ciclovía on Sunday mornings closes 120km of roads to cars." }
+  - { question: "How much does Bogotá cost per day?", answer: "Bogotá offers excellent value. Budget travelers in La Candelaria hostels eating at local restaurants can manage $25-40 USD/day. Mid-range visitors at a good hotel in Chapinero or Zona G with restaurant meals should budget $75-120 USD/day. High-end restaurants in Zona G rival international prices but are still cheaper than equivalent quality in Europe or North America." }
+  - { question: "Do I need a visa for Colombia?", answer: "US, Canadian, Australian, UK, and most EU nationals enter Colombia visa-free for up to 90 days (extendable to 180 days per calendar year). Your passport is stamped at entry with the allowed duration. No prior visa application is required." }
+  - { question: "What is Bogotá famous for?", answer: "Bogotá is famous for the Museo del Oro (the world's finest pre-Columbian gold collection), the Ciclovía (Sunday road closures for cyclists and pedestrians), extraordinary street art in La Candelaria, the Monserrate viewpoint, a booming fine dining scene, and being the highest capital city in the Americas that most travelers visit." }
   - { question: "How do you deal with the altitude in Bogotá?", answer: "At 2,640 metres, Bogotá's altitude can catch you off guard. Drink plenty of water, avoid heavy meals and alcohol on your first day, and take things slowly. Most people adjust within 24-48 hours. If you are flying in from sea level, you may feel short of breath climbing stairs — that is completely normal and passes quickly." }
   - { question: "What is the best neighbourhood to stay in Bogotá?", answer: "La Candelaria is ideal for budget travellers and first-timers wanting to be near museums and street art. Chapinero is the city's trendiest neighbourhood with excellent restaurants and nightlife. Zona G and Zona T are upscale areas with high-end dining. Usaquén in the north has a charming village feel with a great Sunday flea market." }
 affiliatePicks:
@@ -41,6 +46,16 @@ affiliatePicks:
     type: "tour"
     price: "COP 150,000 (~$37 USD)"
     personalNote: "An underground cathedral carved into a salt mine about an hour north of Bogotá. It sounds gimmicky but the engineering and atmosphere are genuinely awe-inspiring."
+    affiliateUrl: "#"
+  - name: "Museo del Oro Guided Tour"
+    type: "tour"
+    price: "COP 70,000 (~$17 USD)"
+    personalNote: "The gold museum is extraordinary even without a guide, but a knowledgeable guide explaining the Muisca culture and the ritual significance of each piece transforms it from a collection into a story."
+    affiliateUrl: "#"
+  - name: "Bogotá Ciclovía Bike Rental"
+    type: "activity"
+    price: "COP 30,000 (~$7 USD)"
+    personalNote: "Every Sunday, 120 km of Bogotá's main roads close to cars and open to cyclists. Renting a bike and joining the Ciclovía is one of the great free experiences in any South American city. Arrive early for the best rental selection."
     affiliateUrl: "#"
 lastVerified: 2026-02-27
 contentStatus: "published"
@@ -80,6 +95,8 @@ Cerro de Monserrate rises to 3,152 metres above sea level, looming over Bogotá'
 You can reach the top three ways: the funicular railway, the cable car (teleférico), or the hiking trail. I took the funicular up and hiked down. The hike takes about an hour and is steep but manageable. Go early in the morning before the clouds roll in for the clearest views. At the summit, there are restaurants — Casa Santa Clara serves traditional Colombian food with panoramic windows that make the meal feel like an event.
 
 A word of caution: the hiking trail has had security issues in the past. Stick to the main path, go during daylight hours when other hikers are present, and do not carry valuables. The funicular and cable car are completely safe and run frequently.
+
+<immersive-break-inline videoSrc="/videos/destinations/bogota-hero.mp4" heading="Bogotá: Colombia's Sky-High Capital" subheading="Street art, gold museums, Ciclovía, and a food scene that finally got its recognition" />
 
 ## Bogotá's Food Scene: Far Beyond Arepas
 
