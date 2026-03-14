@@ -5,6 +5,26 @@ export const COLOMBIA_ESSENTIALS: PackingItem[] = [
   { id: 'co-security', name: 'Anti-Theft Security Pouch', category: 'destination', description: 'Petty theft and phone snatching are common in tourist areas of Bogotá and Cartagena. A hidden money belt and minimal valuables on display dramatically reduce risk.', essential: true, amazonSearchFallback: 'hidden+money+belt+travel+security', affiliatePrice: '$15–25' },
   { id: 'co-repellent', name: 'DEET Insect Repellent', category: 'destination', description: 'Zika and dengue are present in coastal and lowland areas of Colombia. DEET is essential in Cartagena, Santa Marta, and Amazon-adjacent regions.', essential: true, amazonSearchFallback: 'deet+insect+repellent+travel', affiliatePrice: '$8–15' },
   { id: 'co-layers', name: 'Light Layers (altitude swing)', category: 'destination', description: 'Bogotá mornings are 50°F, afternoons are 65°F with sun. Medellín evenings drop cool. The tropical coast is 90°F. Colombia is multiple climates — light layers handle all of them.', essential: true, amazonSearchFallback: 'packable+fleece+lightweight+travel', affiliatePrice: '$30–50' },
+  {
+    id: 'vpn-subscription',
+    name: 'VPN Subscription',
+    category: 'electronics',
+    description: 'Secure your data on public WiFi — essential for hotel, airport, and cafe networks abroad.',
+    essential: false,
+    affiliateUrl: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=XXXXX&url_id=902',
+    affiliatePrice: '~$3/month',
+    affiliatePartner: 'NordVPN',
+  },
+  {
+    id: 'phone-gimbal',
+    name: 'Phone Gimbal for Travel Vlogging',
+    category: 'electronics',
+    description: 'Stabilized video from your phone — no editing needed.',
+    essential: false,
+    affiliateUrl: 'https://www.insta360.com/sal/flow-2-pro?utm_source=AffiliateCenter&utm_medium=copylink&utm_term=INRSG7H5RTR',
+    affiliatePrice: '~$149',
+    affiliatePartner: 'Insta360',
+  },
 ];
 
 export const COLOMBIA_GEAR_RECOMMENDATIONS: GearRecommendation[] = [
